@@ -90,16 +90,16 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 5.12 Add "Compare with Reference" button in chat messages when in test mode
   - [x] 5.13 Add "Export Results" button in TestModePanel to trigger markdown/CSV export
 
-- [ ] 6.0 Implement Cost Tracking & Budget Management
-  - [ ] 6.1 Create `frontend/lib/cost-calculator.ts` with token counting and pricing functions
-  - [ ] 6.2 Implement `calculateCost()` function: (promptTokens * inputPricePerMillion / 1000000) + (completionTokens * outputPricePerMillion / 1000000)
-  - [ ] 6.3 Load model pricing from `config/models.json` and cache in memory
-  - [ ] 6.4 Create session storage utilities to track cumulative cost across multiple test runs
-  - [ ] 6.5 Implement `getBudgetStatus()` function that returns current cost, remaining budget, and warning flag
-  - [ ] 6.6 Add budget check before API calls - disable "Run Test" button if budget exceeded
-  - [ ] 6.7 Display warning toast/alert when 80% budget threshold ($4.00) is reached
-  - [ ] 6.8 Implement "Reset Budget" function to clear session storage and start new testing session
-  - [ ] 6.9 Update BudgetTracker component to show real-time cost updates after each test
+- [x] 6.0 Implement Cost Tracking & Budget Management
+  - [x] 6.1 Create `frontend/lib/cost-calculator.ts` with token counting and pricing functions
+  - [x] 6.2 Implement `calculateCost()` function: (promptTokens * inputPricePerMillion / 1000000) + (completionTokens * outputPricePerMillion / 1000000)
+  - [x] 6.3 Load model pricing from `config/models.json` and cache in memory
+  - [x] 6.4 Create session storage utilities to track cumulative cost across multiple test runs
+  - [x] 6.5 Implement `getBudgetStatus()` function that returns current cost, remaining budget, and warning flag
+  - [x] 6.6 Add budget check before API calls - disable "Run Test" button if budget exceeded
+  - [x] 6.7 Display warning toast/alert when 80% budget threshold ($4.00) is reached
+  - [x] 6.8 Implement "Reset Budget" function to clear session storage and start new testing session
+  - [x] 6.9 Update BudgetTracker component to show real-time cost updates after each test
 
 - [ ] 7.0 Create Results Export & Storage System
   - [ ] 7.1 Create `frontend/lib/test-result-exporter.ts` with export functions
