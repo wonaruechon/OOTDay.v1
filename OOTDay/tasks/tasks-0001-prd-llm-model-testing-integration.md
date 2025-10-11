@@ -64,16 +64,16 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 3.6 Add function to validate and load custom user queries as test scenarios
   - [x] 3.7 Export `getTestScenarios()` function that returns array of TestScenario objects
 
-- [ ] 4.0 Create Automated Evaluation Engine
-  - [ ] 4.1 Create `frontend/lib/test-evaluator.ts` with main `evaluateResponse()` function
-  - [ ] 4.2 Implement Thai Language Tone & Style scorer (0-10): check for ค่ะ, นะคะ, เลย, conversational patterns
-  - [ ] 4.3 Implement Category Identification checker (Pass/Fail): detect CLOTHS vs OTHER based on structure
-  - [ ] 4.4 Implement Product Recommendation Count checker (Pass/Fail): count 💰 and 🔗 emoji patterns, validate 3-5 for CLOTHS, 0 for OTHER
-  - [ ] 4.5 Implement Central Online Links scorer (0-10): regex match `central.co.th` URLs, score based on presence and format
-  - [ ] 4.6 Implement Styling Tips Count checker (Pass/Fail): count bullet points in tips section, validate 1-3 tips
-  - [ ] 4.7 Implement Response Structure scorer (0-10): template matching for required sections (greeting, products/tips, conclusion)
-  - [ ] 4.8 Calculate overall quality score as weighted average: (Thai_Score * 0.3) + (Links_Score * 0.35) + (Structure_Score * 0.35)
-  - [ ] 4.9 Return EvaluationResult object with all scores, timing data, and pass/fail flags
+- [x] 4.0 Create Automated Evaluation Engine
+  - [x] 4.1 Create `frontend/lib/test-evaluator.ts` with main `evaluateResponse()` function
+  - [x] 4.2 Implement Thai Language Tone & Style scorer (0-10): check for ค่ะ, นะคะ, เลย, conversational patterns
+  - [x] 4.3 Implement Category Identification checker (Pass/Fail): detect CLOTHS vs OTHER based on structure
+  - [x] 4.4 Implement Product Recommendation Count checker (Pass/Fail): count 💰 and 🔗 emoji patterns, validate 3-5 for CLOTHS, 0 for OTHER
+  - [x] 4.5 Implement Central Online Links scorer (0-10): regex match `central.co.th` URLs, score based on presence and format
+  - [x] 4.6 Implement Styling Tips Count checker (Pass/Fail): count bullet points in tips section, validate 1-3 tips
+  - [x] 4.7 Implement Response Structure scorer (0-10): template matching for required sections (greeting, products/tips, conclusion)
+  - [x] 4.8 Calculate overall quality score as weighted average: (Thai_Score * 0.3) + (Links_Score * 0.35) + (Structure_Score * 0.35)
+  - [x] 4.9 Return EvaluationResult object with all scores, timing data, and pass/fail flags
 
 - [ ] 5.0 Build Test Mode UI Components
   - [ ] 5.1 Create `frontend/components/chat/ModelSelector.tsx` - dropdown using shadcn Select component to choose model
