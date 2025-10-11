@@ -101,16 +101,16 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 6.8 Implement "Reset Budget" function to clear session storage and start new testing session
   - [x] 6.9 Update BudgetTracker component to show real-time cost updates after each test
 
-- [ ] 7.0 Create Results Export & Storage System
-  - [ ] 7.1 Create `frontend/lib/test-result-exporter.ts` with export functions
-  - [ ] 7.2 Implement `exportToMarkdown()` function: format test metadata, LLM response, evaluation scores, manual notes into markdown
-  - [ ] 7.3 Implement `exportToCSV()` function using papaparse: columns for timestamp, model, query, category, 8 criteria scores, cost, tokens, manual rating, notes
-  - [ ] 7.4 Add file download utilities using browser File API and Blob
-  - [ ] 7.5 Generate filenames with timestamp: `test-results-YYYY-MM-DD-HHmmss.md` and `.csv`
-  - [ ] 7.6 Create in-memory test results array to accumulate multiple test runs before export
-  - [ ] 7.7 Implement "Export Current Test" (single result) and "Export All Tests" (batch) options
-  - [ ] 7.8 Add function to save files to `/dialog/test-results/` directory (Note: Browser can only download, manual move to directory)
-  - [ ] 7.9 Include reference output snippet in markdown export for comparison
+- [x] 7.0 Create Results Export & Storage System
+  - [x] 7.1 Create `frontend/lib/test-result-exporter.ts` with export functions
+  - [x] 7.2 Implement `exportToMarkdown()` function: format test metadata, LLM response, evaluation scores, manual notes into markdown
+  - [x] 7.3 Implement `exportToCSV()` function using papaparse: columns for timestamp, model, query, category, 8 criteria scores, cost, tokens, manual rating, notes
+  - [x] 7.4 Add file download utilities using browser File API and Blob
+  - [x] 7.5 Generate filenames with timestamp: `test-results-YYYY-MM-DD-HHmmss.md` and `.csv`
+  - [x] 7.6 Create in-memory test results array to accumulate multiple test runs before export
+  - [x] 7.7 Implement "Export Current Test" (single result) and "Export All Tests" (batch) options
+  - [x] 7.8 Add function to save files to `/dialog/test-results/` directory (Note: Browser can only download, manual move to directory)
+  - [x] 7.9 Include reference output snippet in markdown export for comparison
 
 - [ ] 8.0 Integration & Testing
   - [ ] 8.1 Wire up TestModePanel to OpenRouterClient: connect "Run Test" button to API call
