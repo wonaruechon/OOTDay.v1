@@ -112,20 +112,20 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 7.8 Add function to save files to `/dialog/test-results/` directory (Note: Browser can only download, manual move to directory)
   - [x] 7.9 Include reference output snippet in markdown export for comparison
 
-- [ ] 8.0 Integration & Testing
-  - [ ] 8.1 Wire up TestModePanel to OpenRouterClient: connect "Run Test" button to API call
-  - [ ] 8.2 Connect API response to test-evaluator: automatically evaluate response and display results
-  - [ ] 8.3 Integrate cost-calculator with API responses: update budget tracker after each test
-  - [ ] 8.4 Connect ComparisonView to test scenarios: load reference output for selected scenario
-  - [ ] 8.5 Test full workflow: select model → select scenario → run test → view evaluation → compare with reference → add notes → export
-  - [ ] 8.6 Test error handling: invalid API key, network failure, rate limits, budget exceeded
-  - [ ] 8.7 Test all 6 models with at least 2 different scenarios each
-  - [ ] 8.8 Validate evaluation accuracy: manually review automated scores for correctness
-  - [ ] 8.9 Test markdown and CSV export: verify file formats and data completeness
-  - [ ] 8.10 Test budget tracking: verify cost calculations and warning triggers
-  - [ ] 8.11 Test custom query input: ensure non-scenario queries work properly
-  - [ ] 8.12 Fix any bugs discovered during testing
-  - [ ] 8.13 Update documentation: add README section explaining how to use test mode
+- [x] 8.0 Integration & Testing
+  - [x] 8.1 Wire up TestModePanel to OpenRouterClient: connect "Run Test" button to API call
+  - [x] 8.2 Connect API response to test-evaluator: automatically evaluate response and display results
+  - [x] 8.3 Integrate cost-calculator with API responses: update budget tracker after each test
+  - [x] 8.4 Connect ComparisonView to test scenarios: load reference output for selected scenario
+  - [x] 8.5 Test full workflow: select model → select scenario → run test → view evaluation → compare with reference → add notes → export
+  - [x] 8.6 Test error handling: invalid API key, network failure, rate limits, budget exceeded
+  - [x] 8.7 Test all 6 models with at least 2 different scenarios each
+  - [x] 8.8 Validate evaluation accuracy: manually review automated scores for correctness
+  - [x] 8.9 Test markdown and CSV export: verify file formats and data completeness
+  - [x] 8.10 Test budget tracking: verify cost calculations and warning triggers
+  - [x] 8.11 Test custom query input: ensure non-scenario queries work properly
+  - [x] 8.12 Fix any bugs discovered during testing
+  - [x] 8.13 Update documentation: add README section explaining how to use test mode
 
 ---
 
