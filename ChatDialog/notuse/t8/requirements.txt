@@ -1,0 +1,14 @@
+# Thai Central Fashion Chatbot - Requirements
+# Python 3.8+
+
+# Core dependencies
+# (Currently using only Python standard library - no external dependencies required)
+
+# Future optional dependencies for enhancements:
+# requests>=2.28.0          # For API integration with Central Online
+# python-dotenv>=0.19.0     # For environment variables
+# flask>=2.0.0              # For web interface
+# line-bot-sdk>=2.0.0       # For LINE integration
+# transformers>=4.20.0      # For NLP improvements
+# pillow>=9.0.0             # For image processing
+# beautifulsoup4>=4.11.0    # For web scraping

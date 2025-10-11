@@ -1,0 +1,309 @@
+# *2#0+'H29I@
+5H"'
+2A
+1HD"1%9I2
+## 3 *22#LH21
+
+---
+
+## *25H 1: 2AH2@7H- (Wedding Guest)
+
+**OOTDay:** .2"" <û 3%1+2-0D#-"9H
+
+**%9I2:** *'1*5H0 3%1+2
+8D2AH@7H-H0 
+H'"A03+H-"DI!1I"
+
+**OOTDay:** -I2' 2AH2@7H-H2#1@%"! =• -"2#2#2"%0@-5"4600 2AHAD+0? @G2C*' B#A#! +#7-'H2'1? A%I'-"2*'!C*HAD+ *52*@%+'2F +#7-0D2@#5"+#950? =
+
+
+**%9I2:** 2CB#A#!H0 2@"G -"295AHD!H@4D A'@#5"+#9%2**4H205H0 #0!2#0!2 8,000 2DI!1I"0
+
+**OOTDay:** @I2C@%"H0! 2@"GCB#A#!G@+!201%8@#5"+#9%2**4!2F  8,000 2G-5@%"H0 -A03 2 %8*'"F 5H03C+I95AHD!H
+4B1*@I2*2'00 (
+
+**%8 1: Elegant Blush Romance**
+
+8@#**5
+!99I-H-F 5HC+I'2!#9I*6--8HA%0+#9+#2 @+!2012AHCB#A#!!2H0 *55I3C+I9!5--#H2A%0H2"#9*'"C8!8!@%"
+
+=Í **A03*4I2:**
+- **@#*:** [Midi Dress -'5 A*1I *5
+!99I - JASPAL](https://www.central.co.th/th/jaspal-midi-dress-pink-nude) - ?3,990
+- **#-@I2:** [Block Heel Sandals +1%1 *59I - PEDRO](https://www.central.co.th/th/pedro-block-heel-sandals-nude) - ?2,490
+- **#0@K2:** [Mini Clutch Bag BH- *5- - CHARLES & KEITH](https://www.central.co.th/th/charles-keith-clutch-gold) - ?1,590
+
+**#'!:** ?8,070
+
+=¡ **Styling Tip:** @%7-@#7H-#01B-+#7-4IB%L@4H!'2!+#9+#2 !#'!+%'!F 3 soft waves 03C+I9*'"2!A%0@+!2012H30 C*HH2+9"2'+#7-*#I-"-@
+#@!G@%G0
+H'"@4H!!44C+I%85I@%"
+
+---
+
+**%8 2: Modern Classic Navy**
+I2-"29@HA%0!1HC'H25I4 %-%8*5#!H2@#5"+#95I9H0 *55I@G*55H95A%0@@*!- @+!2014'8B
+
+=Í **A03*4I2:**
+- **@#*:** [Wrap Dress A"2' V-Neck *5#!H2 - WAREHOUSE](https://www.central.co.th/th/warehouse-wrap-dress-navy) - ?4,290
+- **#-@I2:** [Pointed Toe Pumps +1AI' *53 - STEVE MADDEN](https://www.central.co.th/th/steve-madden-pumps-black) - ?2,990
+- **#0@K2:** [Mini Handbag Chain *5@4 - MANGO](https://www.central.co.th/th/mango-mini-handbag-silver) - ?1,290
+
+**#'!:** ?8,570
+
+=¡ **Styling Tip:** *5#!H2@G*55H@A%095@*!- C*HH2+9"2'+#7-*#I-"-@#5"F *5@40
+H'"@4H!!44C+I%85I@%"H0 AH+I2A classic %4*5A@-#L15 +#7-*59I5
+ 09*'"A%0@I21
+8!2H0
+
+---
+
+
+-%8D+!2'H210? +#7--"2#1AH@%5H"A%-0D#!1I"? @5K"'
+H'"+22@%7--7HC+IDI00 =
+
+
+**%9I2:** 
+-%8A#!2@%"H0! AH-"2@%5H"#-@I2@G*5-7HDI!1I" %1'*59I097D!1I"0
+
+**OOTDay:** @I2CH0! I2-"2C+I!5*5*1!26I A03C+I%-#-@I2*5-+#7-4IB%L900 0@I21%1
+LA%0@4H!'2!B@HC+I%85I@%" (
+
+=Í **#-@I22@%7-:**
+- **#-@I2:** [Block Heel Sandals Metallic Gold - CHARLES & KEITH](https://www.central.co.th/th/charles-keith-heels-gold) - ?2,290
+
+*5-03C+I9+#9+#2A%0 festive !26I @+!2012AH2!2F @%"H0 H2"#9G0--!2*'"I'"! -"2%-D+!0? =
+
+
+**%9I2:** 
+-@%"H0! -8!200 0D95H Central DI@%"
+
+**OOTDay:** "45!2H0! =• -C+I*812AH@7H-00 H2"#9*'"F !2@"-0F I'" -"H2%7!@#5"!I2%8!D+%H2F D'II'"00 @7H-C+I-A-#L@"G !5-0D#C+I
+H'"-5-DI@*!-@%"H0 =
+(
+
+---
+
+## *25H 2: 
+8D--3%12"5H4@* (Sport/Gym)
+
+**OOTDay:** .2"" <û 3%1+2-0D#-"9H
+
+**%9I2:** *'1*5#1 !@4H*!1#4@*#1 -"2+2
+8--3%12"#1 AHD!H#9I'H2I-@#5"!-0D#I2
+
+**OOTDay:** "45I'"005H@#4H!--3%12"! =ª @"5H"!!2@%"H0 @5K"'
+H'"A03C+I#1 -"2#2+H-"00'H20D4@*@%H-0D#@G+%10? '4H@#7H- "@' +#7-@%H%2* group exercise 0? A%I'#0!2-"9H5H#0!2@H2D+#H50?
+
+**%9I2:** !0@%H+%1F 7-"@'1'4H@#7H-#1 D!H@4 5,000 2DI!1I"#1
+
+**OOTDay:** DI@%"H0! 
+8--3%12"5H5I-#02"-22(5 "7+"8H A%0!5'2! support 5H@+!20*!00 -A03
+8*3+#1"@'A%0'4H5H fit 82#@%7H-D+'@%"H0 <ËB
+
+**%8 1: Performance Training Set**
+
+8--3%12"*53-@25H9@HA%0C
+I2DI#4 I2 dri-fit #02"-22(5 @+7H-A+I@#G' @+!2012#"@'A%0'4H@#7H-!2#1
+
+=Í **A03*4I2:**
+- **@*7I-:** [Training Tank Top Dry-Fit *53 - NIKE](https://www.central.co.th/th/nike-training-tank-black) - ?1,290
+- **2@:** [Training Shorts #0@K2I2 *5@2 - ADIDAS](https://www.central.co.th/th/adidas-training-shorts-grey) - ?1,490
+- **#-@I2:** [Training Shoes #8H Metcon *53-2' - NIKE](https://www.central.co.th/th/nike-metcon-training-shoes) - ?4,290
+
+**#'!:** ?7,070
+
+=¡ **Styling Tip:** @%7-8@I2AI-*1I5H#02"-22(5 A%0@#5"!I2+9@%GD'I@
+G@+7H-I'"0#1 #-@I2 training shoes A5I7IAGA# @+!2012#"@'A%0!5 support 5*3+#1'4H@#7H-I'"H0
+
+---
+
+@-J0 @5K"'00 D!H@4 5,000 25H"1D!H6I22 @5K"'+2%85H 2 5H@+!201C+I00!
+
+**%8 2: Budget-Friendly Starter Set**
+
+8@#4H!I8 25C#225H1I-DI C
+IDI#482#@%7H-D+' D!HAI"5H+I-A#L1@%"H0
+
+=Í **A03*4I2:**
+- **@*7I-:** [Training T-Shirt Quick Dry *53 - UNIQLO](https://www.central.co.th/th/uniqlo-training-tee-black) - ?590
+- **2@:** [Training Shorts #I-!#0@K2 *5#!H2 - UNIQLO](https://www.central.co.th/th/uniqlo-training-shorts-navy) - ?790
+- **#-@I2:** [Training Shoes Lite Racer *53 - ADIDAS](https://www.central.co.th/th/adidas-lite-racer-black) - ?2,490
+- **8@I2:** [Sports Socks 3 9H *53-@2-2' - UNIQLO](https://www.central.co.th/th/uniqlo-sports-socks-3pack) - ?390
+
+**#'!:** ?4,260
+
+=¡ **Styling Tip:** 
+85I@+!201!7-C+!H!2#1 #22D!HA AH8 25 I2 quick dry - UNIQLO C
+IDI#4@%"H0 A03C+I7I-@*7I-*3#- 2-3 1'@4H!@4! @#20#22D!HAA%00DI*%1C*HDI#1 -"H2%7!@#5"!'I3DI'"00!
+
+---
+
+-1D+
+-'H210? +#7-I2-"2#0+"1+H-" %85H 2 @+!20!2@%" @-2@45H@+%7-D7I-8C*H-+#7-+91D#I*2"GDI0#1 =
+=ª
+
+**%9I2:** %8 2 95#1! -5@%" A%I'@*7I-'#7I-@4H!5H1'5#1?
+
+**OOTDay:** 5C5H
+-H0! =
+ A03C+I7I-@*7I-@4H!-5 2-3 1'0#1 I2D4@**12+L%0 3-4 #1I G0!5@*7I-+!8@'5"C*H-5 D!HI-1H-"!2@4D#1
+
+=Í **A03@4H!@4!:**
+- **@*7I-@4H!:** [Training T-Shirt Quick Dry (*5@2 + *5#!H2) - UNIQLO](https://www.central.co.th/th/uniqlo-training-tee) - ?590 x 2 = ?1,180
+
+#'!1I+!0@G ?5,440 H0 AHI27I-@*7I-@4H!AH 1 1' G0@+%7- ?4,850 -5D!H@4 5,000 2#1
+
+A%I'-5-"H200 I2D4@*-@
+I2+#7-%275H-22(@"G46 -207I-AG@G2F @4H!D'IG50#1 AHD!H3@G-@#4H!IGDIH0
+
+#I-!@#4H!I--3%12"A%I'0#1! *9IF #1 =ª(
+
+**%9I2:** -8!2#1! 
+1@5@%" 0D1
+8@%"#1
+
+**OOTDay:** "45!2H0#1! =
+ -C+I*812#--3%12"00 A%I'-"H2%7!7H!I3@"-0F 1H-C+I@5"-I'"#1 I2!5-0D#-"2#6)2@#7H-
+8--3%12"@4H!@4! +#7--"2+2
+8'4H!2#2- 
+8B"0 -DI@*!-@%"00 *9IF #1! =ª=%
+
+---
+
+## *25H 3: 
+8D2@H1@7H- (Cafe Hangout)
+
+**OOTDay:** .2"" <û 3%1+2-0D#-"9H
+
+**%9I2:** +'15H0! '1@*2#L5I0D1H2@H1@7H-H0 -"2+2
+85H*2"F AH95 H2"#9*'" 
+H'"A03+H-"H0
+
+**OOTDay:** -I2' D1H
+4%1@7H-H2#1@%"! ( -"2#9I+H-"00'H22@H5H0D@G*D%LAD+0? !44!-% '4@ +#7-'H2*'*'" outdoor? A%I'
+-AH1'*D%LAD+0 H2#1F @2+%5 +#7-0@HF A*2'!1H? =
+
+
+**%9I2:** 2@H!44!-%H0 B*52'#5!H2#1F -"2AH1'A*2"F AH9!5*D%LH0H0 D!H-"29@G22#@4D
+
+**OOTDay:** @I2C@%"H0! 2@H!44!-%B*5-H-F G@+!201%8*52*@%+#7-*5@-4#LB!2F @%" H2"#9*'"AH-! =ø #0!2-"9H5H#0!2@H2D+#H50?
+
+**%9I2:** D!H@4 4,000 2H0
+
+**OOTDay:** B-@H0! !5%8*'"F 2 A5H03C+I9
+4A%0H2"#9*'"!2F @%"00 (
+
+**%8 1: Soft Pastel Casual**
+%8*52*@%9I+'2F 5H@I21##"22(2@H!44!-%*8F 9*2"AH!5*D%L H2"#9--!2*'"H2#1AH-H0
+
+=Í **A03*4I2:**
+- **@*7I-:** [Knit Cardigan A*1I *5#5! - MANGO](https://www.central.co.th/th/mango-knit-cardigan-cream) - ?1,290
+- **@*7I-I2C:** [Basic Tank Top *52' - UNIQLO](https://www.central.co.th/th/uniqlo-basic-tank-white) - ?390
+- **2@:** [Wide Leg Pants I2%44 *5@ - H&M](https://www.central.co.th/th/hm-wide-leg-pants-beige) - ?1,290
+- **#-@I2:** [Canvas Sneakers *52' - CONVERSE](https://www.central.co.th/th/converse-chuck-taylor-white) - ?2,290
+- **#0@K2:** [Canvas Tote Bag *5#5! - AIIZ](https://www.central.co.th/th/aiiz-canvas-tote-cream) - ?790
+
+**#'!:** ?6,050
+
+-8J"! @4D46I2 @5K"'%-#1C+I00
+
+**%8 1 (#1C+!H): Soft Pastel Casual**
+=Í **A03*4I2:**
+- **@*7I-:** [Knit Cardigan A*1I *5#5! - H&M](https://www.central.co.th/th/hm-knit-cardigan-cream) - ?890
+- **@*7I-I2C:** [Basic Tank Top *52' - UNIQLO](https://www.central.co.th/th/uniqlo-basic-tank-white) - ?390
+- **2@:** [Wide Leg Pants I2%44 *5@ - H&M](https://www.central.co.th/th/hm-wide-leg-pants-beige) - ?1,290
+- **#-@I2:** [Canvas Sneakers Low-Cut *52' - H&M](https://www.central.co.th/th/hm-canvas-sneakers-white) - ?890
+- **#0@K2:** [Canvas Tote Bag *5#5! - AIIZ](https://www.central.co.th/th/aiiz-canvas-tote-cream) - ?790
+
+**#'!:** ?4,250
+
+AHI2D!H7I-2#L4A C
+IAH@*7I-"7A*1I1'*'"F GH2#1A%I'H0 0DI#0+"1+H-"
+
+=¡ **Styling Tip:** %85I@I'2!*2"A%09
+4 *5#5!-@0@I212@H!44!-%*8F H0 C*HA'H1AA#-@%GF +#7-+!' bucket hat *52'03C+I9H2#16I-500 !*2!2##'+2!I2+%'!F +#7-%H-""2'G*'"H0
+
+---
+
+**%8 2: Korean Casual Chic**
+%8A'@2+%5*2"F 5H3%1.4!2-5I C*HH2" 95 H2"#9--!2*'"8!8!@%"H0
+
+=Í **A03*4I2:**
+- **@*7I-:** [Oversized T-Shirt *52' - UNIQLO](https://www.central.co.th/th/uniqlo-oversized-tee-white) - ?590
+- **2@:** [Mom Jeans # relaxed *5I2-H- - H&M](https://www.central.co.th/th/hm-mom-jeans-light-blue) - ?1,490
+- **#-@I2:** [Platform Sneakers *52' - KEDS](https://www.central.co.th/th/keds-platform-sneakers-white) - ?1,890
+- **#0@K2:** [Crossbody Bag Nylon *5#5! - AIIZ](https://www.central.co.th/th/aiiz-crossbody-nylon-cream) - ?690
+
+**#'!:** ?4,660
+
+@4D-546 I2@%5H"#-@I2@G"5H+I--7H05'H2H0
+
+**%8 2 (#1C+!H): Korean Casual Chic**
+=Í **A03*4I2:**
+- **@*7I-:** [Oversized T-Shirt *52' - UNIQLO](https://www.central.co.th/th/uniqlo-oversized-tee-white) - ?590
+- **2@:** [Mom Jeans # relaxed *5I2-H- - H&M](https://www.central.co.th/th/hm-mom-jeans-light-blue) - ?1,490
+- **#-@I2:** [Canvas Sneakers Platform *52' - H&M](https://www.central.co.th/th/hm-platform-sneakers-white) - ?1,290
+- **#0@K2:** [Crossbody Bag Nylon *5#5! - AIIZ](https://www.central.co.th/th/aiiz-crossbody-nylon-cream) - ?690
+
+**#'!:** ?4,060
+
+=¡ **Styling Tip:** %85IH2"!2H0 @*7I-"7B-@'-#LD*L1'+%'!F 9H1"5*L mom jeans @G*9#*3@#G-*2'@2+%5@%"! H2"#9A03C+IH2"!8!*946 03C+I29"2' I2-"2@4H!'2!H2#1 C*H4J4!+#7-9I21-@%GF G09H2#1!26IH0
+
+---
+
+
+-%8D+!2'H210? %8 1 09-L+'2F *H'%8 2 09@HA%0*2"'H2 1I*-%8H2"#9*'"AH-@%"! -"292@%7--7H-5!1I"0? =
+=ø
+
+**%9I2:** 
+-%8 2 !2@%"H0! AH-"22!'H2I2@%5H"@*7I-@G*5-7HDI!1I"0 @#'H2*52'0@7I-H2"
+
+**OOTDay:** @I2CH0! *52'I2D1H2@HI-#0'1+H-"#4F  %-@%5H"@G*5-7H900
+
+=Í **2@%7-*5@*7I-:**
+- **1'@%7- 1:** [Oversized T-Shirt *5@/#2" - UNIQLO](https://www.central.co.th/th/uniqlo-oversized-tee-beige) - ?590
+- **1'@%7- 2:** [Oversized T-Shirt *5@2-H- - UNIQLO](https://www.central.co.th/th/uniqlo-oversized-tee-grey) - ?590
+- **1'@%7- 3:** [Oversized T-Shirt *5I22*@% - UNIQLO](https://www.central.co.th/th/uniqlo-oversized-tee-blue) - ?590
+
+A03*5@+#7-*5@2-H-H0 0@I21"5*L*5I2-H-DI5!2 9--8HA%0@I21##"22(2@H!44!-%*8F @%" *5I22*@%GH2#15 AHI-#0'1-"H2C+II3*51"5*L!2@4D00
+
+%-9*1#9H... *5@H2055H*8H0! @#2003C+I%89 tone-on-tone *'"F A!44!-%
+4!2@%" (
+
+
+-*5D+!2'H210? +#7--"2%-9*5-7H-5!1I"? =
+
+
+**%9I2:** *5@5!2@%"H0! %@%"H0 -8!2005HA03
+
+**OOTDay:** "45!2H0! =• 5C5H
+H'"DI00 *#8%8-@#20@G:
+- @*7I-"7 oversized *5@
+- "5*L mom jeans *5I2-H-
+- #-@I2 platform sneakers *52'
+- #0@K2 crossbody *5#5!
+
+**#'!:** ?4,060
+
+%85I*'"AH-H0! H2"#9@"-0F 00 A%I'-"H2%7!*1H@#7H-7H!5HH2#1F !2H2"#99H1
+8I'" 0DI 2*'"F @%" =ø
+
+!5-0D#C+I
+H'"@4H!@4!!1I"0? +#7--"2#6)2@#7H-#!+#7-@#7H-#015H@I21
+85I!1I"? =
+(
+
+**%9I2:** D!HI-A%I'H0 
+1@!2@%" -8!200!
+
+**OOTDay:** "45H0! =• -C+I*812#1H2@H1@7H-00 A%I'H2"#9*'"F !2@"-0F I'" I2!5-0D#-"2#6)2-5 D!H'H20@G
+8D@5H"' 
+8D@ +#7-
+832 -DI@*!-@%"00 #I-!
+H'"@*!-! -C+I!5'2!*8H0 =
+(
+
+---
+
+***4I*8*21I 3 *22#L**

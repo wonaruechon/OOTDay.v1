@@ -1,0 +1,18 @@
+2025-10-07 12:58:44,084 - INFO - 
+============================================================
+2025-10-07 12:58:44,084 - INFO - Starting category: men
+2025-10-07 12:58:44,084 - INFO - ============================================================
+2025-10-07 12:58:44,795 - INFO - Navigating to https://www.central.co.th/th/men
+2025-10-07 12:58:45,137 - INFO - Waiting 15.0s for JavaScript to load products...
+2025-10-07 12:59:00,141 - INFO - Scrolling 5 times to trigger lazy loading...
+2025-10-07 12:59:03,152 - INFO -   Scroll 1/5 complete
+2025-10-07 12:59:06,158 - INFO -   Scroll 2/5 complete
+2025-10-07 12:59:09,164 - INFO -   Scroll 3/5 complete
+2025-10-07 12:59:12,170 - INFO -   Scroll 4/5 complete
+2025-10-07 12:59:15,176 - INFO -   Scroll 5/5 complete
+2025-10-07 12:59:15,198 - INFO - Found 0 product links after initial load
+2025-10-07 12:59:18,207 - INFO - 
+Total unique product URLs found: 0
+2025-10-07 12:59:18,240 - INFO - 
+✓ Completed men: 0 products in 34.16s
+2025-10-07 12:59:18,241 - INFO - 💾 Saved men data to /Users/naruechon/Documents/Project/OOTDay/products/men_playwright.json

@@ -1,0 +1,58 @@
+{
+  "models": [
+    {
+      "id": "google/gemini-2.0-flash-exp:free",
+      "name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "inputPricePerMillion": 0,
+      "outputPricePerMillion": 0,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 8192
+    },
+    {
+      "id": "openai/gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "provider": "OpenAI",
+      "inputPricePerMillion": 10000,
+      "outputPricePerMillion": 30000,
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096
+    },
+    {
+      "id": "zhipuai/glm-4",
+      "name": "GLM-4",
+      "provider": "Zhipu AI",
+      "inputPricePerMillion": 1000,
+      "outputPricePerMillion": 1000,
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096
+    },
+    {
+      "id": "anthropic/claude-3.5-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "inputPricePerMillion": 3000,
+      "outputPricePerMillion": 15000,
+      "contextWindow": 200000,
+      "maxOutputTokens": 8192
+    },
+    {
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "name": "Qwen 2.5 72B",
+      "provider": "Alibaba",
+      "inputPricePerMillion": 400,
+      "outputPricePerMillion": 400,
+      "contextWindow": 32768,
+      "maxOutputTokens": 8192
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek Chat",
+      "provider": "DeepSeek",
+      "inputPricePerMillion": 140,
+      "outputPricePerMillion": 280,
+      "contextWindow": 64000,
+      "maxOutputTokens": 4096
+    }
+  ]
+}

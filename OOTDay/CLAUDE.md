@@ -90,3 +90,29 @@ The platform is designed to integrate with:
 - Azure cloud infrastructure for hosting
 - Claude AI for fashion recommendations
 - Various AI tools (n8n, langflow, Kling AI) for enhanced features
+
+## AI Dev Tasks - Structured Feature Development
+
+This project uses the AI Dev Tasks workflow for systematic feature development with AI assistance. Use these files when I request structured feature development using PRDs:
+
+- `/ai-dev-tasks/create-prd.md` - Generate a Product Requirements Document
+- `/ai-dev-tasks/generate-tasks.md` - Break PRDs into detailed implementation tasks
+- `/ai-dev-tasks/process-task-list.md` - Manage task progression and completion
+
+### Workflow Overview
+
+1. **Create PRD**: Use `create-prd.md` to generate a detailed Product Requirement Document
+   - PRDs are saved in `/tasks/` as `[n]-prd-[feature-name].md`
+   - Includes clarifying questions to ensure requirements are well understood
+
+2. **Generate Tasks**: Use `generate-tasks.md` to break the PRD into actionable tasks
+   - Task lists are saved in `/tasks/` as `tasks-[prd-file-name].md`
+   - Includes parent tasks and detailed sub-tasks for implementation
+
+3. **Process Tasks**: Use `process-task-list.md` for step-by-step implementation
+   - Work on one sub-task at a time
+   - Mark tasks complete as you progress
+   - Commit after completing all sub-tasks for a parent task
+   - Use conventional commit format with descriptive messages
+
+For more details, see the README in the `/ai-dev-tasks/` directory or use the custom slash commands: `/create-prd`, `/generate-tasks`, `/process-task-list`
