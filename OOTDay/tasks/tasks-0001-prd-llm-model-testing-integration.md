@@ -55,14 +55,14 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 2.6 Load DialogTemplate14-2 content and use it as system prompt in all API calls
   - [x] 2.7 Add timeout configuration (30 seconds) for API requests
 
-- [ ] 3.0 Implement Test Scenario Management System
-  - [ ] 3.1 Create `frontend/lib/test-scenarios.ts` with functions to load test scenarios
-  - [ ] 3.2 Read and parse `dialog/t14.2-CC/DialogTemplate14-2.md` to extract requirements
-  - [ ] 3.3 Read and parse `dialog/t14.2-CC/output_t14-2.md` to extract reference outputs for each occasion
-  - [ ] 3.4 Create structured test scenario objects with: id, occasion, query, expectedCategory, expectedTemplate, referenceOutput
-  - [ ] 3.5 Implement function to generate test scenarios for all 9 occasions (Work, Chill, Wedding, Sport, Travel, Date, Dinner, Café, Party)
-  - [ ] 3.6 Add function to validate and load custom user queries as test scenarios
-  - [ ] 3.7 Export `getTestScenarios()` function that returns array of TestScenario objects
+- [x] 3.0 Implement Test Scenario Management System
+  - [x] 3.1 Create `frontend/lib/test-scenarios.ts` with functions to load test scenarios
+  - [x] 3.2 Read and parse `dialog/t14.2-CC/DialogTemplate14-2.md` to extract requirements
+  - [x] 3.3 Read and parse `dialog/t14.2-CC/output_t14-2.md` to extract reference outputs for each occasion
+  - [x] 3.4 Create structured test scenario objects with: id, occasion, query, expectedCategory, expectedTemplate, referenceOutput
+  - [x] 3.5 Implement function to generate test scenarios for all 9 occasions (Work, Chill, Wedding, Sport, Travel, Date, Dinner, Café, Party)
+  - [x] 3.6 Add function to validate and load custom user queries as test scenarios
+  - [x] 3.7 Export `getTestScenarios()` function that returns array of TestScenario objects
 
 - [ ] 4.0 Create Automated Evaluation Engine
   - [ ] 4.1 Create `frontend/lib/test-evaluator.ts` with main `evaluateResponse()` function
