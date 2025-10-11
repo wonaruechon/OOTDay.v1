@@ -38,7 +38,7 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
 
 ## Tasks
 
-- [ ] 1.0 Setup Project Configuration & Dependencies
+- [x] 1.0 Setup Project Configuration & Dependencies
   - [x] 1.1 Create `.env.local` file with `OPENROUTER_API_KEY` and `NEXT_PUBLIC_ENABLE_TEST_MODE=true`
   - [x] 1.2 Update `.gitignore` to ensure `.env.local` is not committed
   - [x] 1.3 Install required npm packages: `papaparse` for CSV, `@dqbd/tiktoken` for token counting (optional)
@@ -46,14 +46,14 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 1.5 Create `dialog/test-results/` directory for storing test outputs
   - [x] 1.6 Add TypeScript interfaces in `frontend/lib/types/test-types.ts` for Model, TestScenario, TestResult, EvaluationScore
 
-- [ ] 2.0 Build OpenRouter API Integration Layer
-  - [ ] 2.1 Create `frontend/lib/openrouter-client.ts` with OpenRouterClient class
-  - [ ] 2.2 Implement `sendChatCompletion()` method that accepts model ID, system prompt, and user message
-  - [ ] 2.3 Add error handling for network errors, rate limits (429), and invalid API key (401)
-  - [ ] 2.4 Implement exponential backoff retry logic for rate limit errors
-  - [ ] 2.5 Parse response to extract message content, tokens used (prompt_tokens, completion_tokens), and calculate response time
-  - [ ] 2.6 Load DialogTemplate14-2 content and use it as system prompt in all API calls
-  - [ ] 2.7 Add timeout configuration (30 seconds) for API requests
+- [x] 2.0 Build OpenRouter API Integration Layer
+  - [x] 2.1 Create `frontend/lib/openrouter-client.ts` with OpenRouterClient class
+  - [x] 2.2 Implement `sendChatCompletion()` method that accepts model ID, system prompt, and user message
+  - [x] 2.3 Add error handling for network errors, rate limits (429), and invalid API key (401)
+  - [x] 2.4 Implement exponential backoff retry logic for rate limit errors
+  - [x] 2.5 Parse response to extract message content, tokens used (prompt_tokens, completion_tokens), and calculate response time
+  - [x] 2.6 Load DialogTemplate14-2 content and use it as system prompt in all API calls
+  - [x] 2.7 Add timeout configuration (30 seconds) for API requests
 
 - [ ] 3.0 Implement Test Scenario Management System
   - [ ] 3.1 Create `frontend/lib/test-scenarios.ts` with functions to load test scenarios
