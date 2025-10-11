@@ -75,20 +75,20 @@ Generated from: `0001-prd-llm-model-testing-integration.md`
   - [x] 4.8 Calculate overall quality score as weighted average: (Thai_Score * 0.3) + (Links_Score * 0.35) + (Structure_Score * 0.35)
   - [x] 4.9 Return EvaluationResult object with all scores, timing data, and pass/fail flags
 
-- [ ] 5.0 Build Test Mode UI Components
-  - [ ] 5.1 Create `frontend/components/chat/ModelSelector.tsx` - dropdown using shadcn Select component to choose model
-  - [ ] 5.2 Create `frontend/components/chat/ScenarioSelector.tsx` - dropdown with pre-defined scenarios + "Custom Query" option
-  - [ ] 5.3 Create `frontend/components/chat/BudgetTracker.tsx` - display current cost, remaining budget, progress bar with warning state at 80%
-  - [ ] 5.4 Create `frontend/components/chat/TestModePanel.tsx` - container with ModelSelector, ScenarioSelector, custom query input, "Run Test" button
-  - [ ] 5.5 Create `frontend/components/chat/EvaluationResults.tsx` - collapsible Card displaying all 8 evaluation criteria with color-coded scores and pass/fail indicators
-  - [ ] 5.6 Create `frontend/components/chat/ComparisonView.tsx` - Dialog/Sheet with side-by-side comparison of reference output and actual LLM response
-  - [ ] 5.7 Add manual review section in ComparisonView: text area for notes, "Approved"/"Needs Improvement" buttons
-  - [ ] 5.8 Modify `frontend/components/chat/ChatInterface.tsx` to add test mode toggle (Switch component) in header
-  - [ ] 5.9 Integrate TestModePanel into ChatInterface, conditionally render based on test mode state
-  - [ ] 5.10 Style test mode with orange/amber header background to distinguish from normal mode
-  - [ ] 5.11 Add "TEST MODE" badge in ChatInterface header when test mode is active
-  - [ ] 5.12 Add "Compare with Reference" button in chat messages when in test mode
-  - [ ] 5.13 Add "Export Results" button in TestModePanel to trigger markdown/CSV export
+- [x] 5.0 Build Test Mode UI Components
+  - [x] 5.1 Create `frontend/components/chat/ModelSelector.tsx` - dropdown using shadcn Select component to choose model
+  - [x] 5.2 Create `frontend/components/chat/ScenarioSelector.tsx` - dropdown with pre-defined scenarios + "Custom Query" option
+  - [x] 5.3 Create `frontend/components/chat/BudgetTracker.tsx` - display current cost, remaining budget, progress bar with warning state at 80%
+  - [x] 5.4 Create `frontend/components/chat/TestModePanel.tsx` - container with ModelSelector, ScenarioSelector, custom query input, "Run Test" button
+  - [x] 5.5 Create `frontend/components/chat/EvaluationResults.tsx` - collapsible Card displaying all 8 evaluation criteria with color-coded scores and pass/fail indicators
+  - [x] 5.6 Create `frontend/components/chat/ComparisonView.tsx` - Dialog/Sheet with side-by-side comparison of reference output and actual LLM response
+  - [x] 5.7 Add manual review section in ComparisonView: text area for notes, "Approved"/"Needs Improvement" buttons
+  - [x] 5.8 Modify `frontend/components/chat/ChatInterface.tsx` to add test mode toggle (Switch component) in header
+  - [x] 5.9 Integrate TestModePanel into ChatInterface, conditionally render based on test mode state
+  - [x] 5.10 Style test mode with orange/amber header background to distinguish from normal mode
+  - [x] 5.11 Add "TEST MODE" badge in ChatInterface header when test mode is active
+  - [x] 5.12 Add "Compare with Reference" button in chat messages when in test mode
+  - [x] 5.13 Add "Export Results" button in TestModePanel to trigger markdown/CSV export
 
 - [ ] 6.0 Implement Cost Tracking & Budget Management
   - [ ] 6.1 Create `frontend/lib/cost-calculator.ts` with token counting and pricing functions
