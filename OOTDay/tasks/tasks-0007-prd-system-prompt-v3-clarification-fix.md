@@ -243,14 +243,16 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
 
 ---
 
-### ✅ Parent Task 4: Prompt Support Files
+### ✅ Parent Task 4: Prompt Support Files [COMPLETED]
 **Owner:** Dev Team
 **Priority:** P1 (High)
 **Dependencies:** Task 3
 **Estimated Time:** 0.5 day
+**Actual Time:** Completed
+**Commit:** 239b44d (frontend submodule)
 
 **Sub-tasks:**
-- [ ] 4.1 Create file: `frontend/lib/prompts/state-machine-examples.ts`
+- [x] 4.1 Create file: `frontend/lib/prompts/state-machine-examples.ts`
   - Export object with good/bad conversation examples
   - Include examples from PRD Section 7.2
   - BROKEN example: งานบวช conversation (v2.1)
@@ -258,13 +260,13 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
   - Direct recommendation example (sufficient info upfront)
   - Force recommendation example (after 2 clarifications)
 
-- [ ] 4.2 Create file: `frontend/lib/prompts/prompt-version.ts`
+- [x] 4.2 Create file: `frontend/lib/prompts/prompt-version.ts`
   - Export `PROMPT_VERSION` constant: 'v3.0'
   - Export `PREVIOUS_VERSION` constant: 'v2.1'
   - Export function `getSystemPrompt(version: string): string`
   - Support switching between v2.1 and v3.0 for A/B testing
 
-- [ ] 4.3 Update TypeScript types
+- [x] 4.3 Update TypeScript types
   - Add to `frontend/lib/types/chat-types.ts`:
     - `type PromptVersion = 'v2.1' | 'v3.0'`
     - Update exports
