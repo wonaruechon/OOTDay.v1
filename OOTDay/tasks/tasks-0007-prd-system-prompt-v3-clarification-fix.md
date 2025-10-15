@@ -21,11 +21,13 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
 
 ## PHASE 1: Week 1 - Core Development (Days 1-5)
 
-### ✅ Parent Task 1: State Machine Implementation
+### ✅ Parent Task 1: State Machine Implementation [COMPLETED]
 **Owner:** Dev Team
 **Priority:** P0 (Critical)
 **Dependencies:** None
 **Estimated Time:** 2 days
+**Actual Time:** Completed
+**Commit:** a9ae815 (frontend submodule)
 
 **Sub-tasks:**
 - [x] 1.1 Create file: `frontend/lib/conversation/state-machine.ts`
@@ -90,41 +92,43 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
 
 ---
 
-### ✅ Parent Task 2: Response Validator Creation
+### ✅ Parent Task 2: Response Validator Creation [COMPLETED]
 **Owner:** Dev Team
 **Priority:** P0 (Critical)
 **Dependencies:** None
 **Estimated Time:** 1 day
+**Actual Time:** Completed
+**Commit:** a3ee5da (frontend submodule)
 
 **Sub-tasks:**
-- [ ] 2.1 Create file: `frontend/lib/conversation/validation.ts`
+- [x] 2.1 Create file: `frontend/lib/conversation/validation.ts`
   - Define `ValidationResult` interface: `{ isValid, errors }`
   - Set up `ResponseValidator` class
 
-- [ ] 2.2 Implement `validate()` method
+- [x] 2.2 Implement `validate()` method
   - Accept parameters: `response: string`, `expectedMode: ResponseMode`
   - Call `containsQuestion()` and `containsProductLinks()` helpers
   - Return validation result based on mode
 
-- [ ] 2.3 Implement validation logic for CLARIFICATION mode (FR-3.1)
+- [x] 2.3 Implement validation logic for CLARIFICATION mode (FR-3.1)
   - Must have: question mark or question keywords (มั้ย, ไหม, หรือ)
   - Must NOT have: product links, prices (💰), URLs (http, 🔗)
   - Return error if contains products: "CLARIFICATION mode must NOT contain products"
 
-- [ ] 2.4 Implement validation logic for RECOMMENDATION mode (FR-3.2)
+- [x] 2.4 Implement validation logic for RECOMMENDATION mode (FR-3.2)
   - Must have: product links/prices (💰 ราคา, 🔗, http)
   - Must NOT have: question marks, question keywords
   - Return error if contains questions: "RECOMMENDATION mode must NOT contain questions"
 
-- [ ] 2.5 Implement validation logic for REDIRECT mode
+- [x] 2.5 Implement validation logic for REDIRECT mode
   - Must NOT have: questions or product links
   - Should only contain redirect message
 
-- [ ] 2.6 Implement `containsQuestion()` helper
+- [x] 2.6 Implement `containsQuestion()` helper
   - Check for: '?', 'มั้ย', 'ไหม', 'หรือ', 'คะ?', 'ค่ะ?'
   - Return boolean
 
-- [ ] 2.7 Implement `containsProductLinks()` helper
+- [x] 2.7 Implement `containsProductLinks()` helper
   - Check for: 'http', '💰 ราคา', '🔗', 'บาท'
   - Return boolean
 
