@@ -147,44 +147,46 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
 
 ---
 
-### ✅ Parent Task 3: System Prompt v3.0 Development
+### ✅ Parent Task 3: System Prompt v3.0 Development [COMPLETED]
 **Owner:** Dev Team + PM
 **Priority:** P0 (Critical)
 **Dependencies:** None
 **Estimated Time:** 2 days
+**Actual Time:** Completed
+**Commit:** 20e4055 (frontend submodule)
 
 **Sub-tasks:**
-- [ ] 3.1 Create file: `frontend/lib/prompts/system-prompt-v3.ts`
+- [x] 3.1 Create file: `frontend/lib/prompts/system-prompt-v3.ts`
   - Set up file structure with metadata export
   - Import v2.1 content as baseline
 
-- [ ] 3.2 Add "CRITICAL: CONVERSATION FLOW STATE MACHINE" section
+- [x] 3.2 Add "CRITICAL: CONVERSATION FLOW STATE MACHINE" section
   - Explain the 3 exclusive modes: CLARIFICATION, RECOMMENDATION, REDIRECT
   - Emphasize: "You MUST operate in ONE mode per response"
 
-- [ ] 3.3 Define STATE 1: CLARIFICATION MODE section
+- [x] 3.3 Define STATE 1: CLARIFICATION MODE section
   - **WHEN TO USE**: Missing critical info, <2 clarifications asked, no recommendations yet
   - **WHAT TO DO**: Ask ONE question, be friendly, use emoji
   - **STRICT RULES**: ❌ NO products, ❌ NO recommendations, ❌ NO styling tips
   - **EXAMPLE**: Show good example from PRD (งานบวช → ask gender only)
   - **STOP INSTRUCTION**: [STOP HERE - NO PRODUCTS]
 
-- [ ] 3.4 Define STATE 2: RECOMMENDATION MODE section
+- [x] 3.4 Define STATE 2: RECOMMENDATION MODE section
   - **WHEN TO USE**: Have critical info, OR 2 clarifications asked, OR already recommended
   - **WHAT TO DO**: Provide 3-5 products, styling tips, encouraging close
   - **STRICT RULES**: ❌ NO questions, ❌ NO confirmation, ❌ NO "อยากดู..."
   - **EXAMPLE**: Show good example (ผู้ชาย answer → full recommendations)
   - **STOP INSTRUCTION**: [STOP HERE - NO QUESTIONS]
 
-- [ ] 3.5 Define STATE 3: REDIRECT MODE section
+- [x] 3.5 Define STATE 3: REDIRECT MODE section
   - **WHEN TO USE**: Off-topic query detected
   - **WHAT TO DO**: Use redirect templates from v2.1
 
-- [ ] 3.6 Add "CONVERSATION FLOW TRACKER" section
+- [x] 3.6 Add "CONVERSATION FLOW TRACKER" section
   - Show ConversationState TypeScript interface
   - Explain: clarificationsAsked (max 2), hasProvidedRecommendations, userInfo
 
-- [ ] 3.7 Add "DECISION LOGIC FLOWCHART" section
+- [x] 3.7 Add "DECISION LOGIC FLOWCHART" section
   - Step-by-step decision tree for every user message
   - 1. Off-topic? → REDIRECT
   - 2. hasProvidedRecommendations? → RECOMMENDATION (lockout)
@@ -193,33 +195,33 @@ This task list implements System Prompt v3.0 to fix the critical conversation fl
   - 5. Missing critical info? → CLARIFICATION
   - 6. Default → RECOMMENDATION
 
-- [ ] 3.8 Add "CLARIFICATION PRIORITY ORDER" section
+- [x] 3.8 Add "CLARIFICATION PRIORITY ORDER" section
   - List: Gender (HIGH) → Occasion (HIGH) → Destination (MEDIUM) → Budget (LOW)
   - Include skip conditions for each
 
-- [ ] 3.9 Add "POST-RECOMMENDATION LOCKOUT" section
+- [x] 3.9 Add "POST-RECOMMENDATION LOCKOUT" section
   - **CRITICAL RULE**: Once products shown, CANNOT ask questions
   - Show FORBIDDEN pattern (ask after products) ❌
   - Show CORRECT pattern (no questions after products) ✅
 
-- [ ] 3.10 Add "VALIDATION CHECKPOINT" section
+- [x] 3.10 Add "VALIDATION CHECKPOINT" section
   - Checklist for CLARIFICATION mode
   - Checklist for RECOMMENDATION mode
   - Instruction: "If validation fails: Regenerate response in correct mode"
 
-- [ ] 3.11 Migrate all v2.1 content
+- [x] 3.11 Migrate all v2.1 content
   - Copy "Friendly Tone" section (unchanged)
   - Copy "Duplicate Prevention" section (unchanged)
   - Copy "Topic Guardrails" section (unchanged)
   - Copy "Category-Specific Responses" (DialogTemplate14-2)
   - Copy "Template A" and "Template B" formats
 
-- [ ] 3.12 Add anti-pattern examples
+- [x] 3.12 Add anti-pattern examples
   - v2.1 BROKEN example: Shows products then asks questions
   - v3.0 FIXED example: Asks questions first, then shows products
   - Highlight differences with ❌ WRONG and ✅ CORRECT labels
 
-- [ ] 3.13 Update metadata
+- [x] 3.13 Update metadata
   - Version: "3.0 - Conversation Flow Fix"
   - Previous Version: "2.1 - Loop Prevention"
   - Major Change: "Strict state machine enforcement, post-recommendation lockout"
