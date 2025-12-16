@@ -1,0 +1,69 @@
+2025-10-12 19:48:49,406 - __main__ - INFO - ============================================================
+2025-10-12 19:48:49,406 - __main__ - INFO - CENTRAL GROUP PRODUCT SCRAPING SYSTEM
+2025-10-12 19:48:49,406 - __main__ - INFO - ============================================================
+2025-10-12 19:48:49,406 - __main__ - INFO - Workers: 3
+2025-10-12 19:48:49,406 - __main__ - INFO - Categories: 2
+2025-10-12 19:48:49,406 - __main__ - INFO - Scrape Details: True
+2025-10-12 19:48:49,406 - __main__ - INFO - Validate Images: False
+2025-10-12 19:48:49,406 - __main__ - INFO - Resume: True
+2025-10-12 19:48:49,406 - __main__ - INFO - ============================================================
+2025-10-12 19:48:49,406 - logger - INFO - Started scraping session: e2bfc6b6-d32b-4b07-8778-47c6c129d9fd
+2025-10-12 19:48:49,406 - __main__ - INFO - Attempt 1/3 for category 'women'
+2025-10-12 19:48:49,406 - scraper_worker - INFO - Worker 1: Starting category 'women'
+2025-10-12 19:48:49,406 - scraper_worker - INFO - Worker 1: URL: https://www.central.co.th/th/women
+2025-10-12 19:48:49,429 - __main__ - INFO - Attempt 1/3 for category 'men'
+2025-10-12 19:48:49,429 - scraper_worker - INFO - Worker 2: Starting category 'men'
+2025-10-12 19:48:49,429 - scraper_worker - INFO - Worker 2: URL: https://www.central.co.th/th/men
+2025-10-12 19:48:50,576 - scraper_worker - INFO - Worker 2: Fetching category page...
+2025-10-12 19:48:50,579 - scraper_worker - INFO - Worker 1: Fetching category page...
+2025-10-12 19:48:52,208 - scraper_worker - INFO - Worker 2: Found 20 products initially
+2025-10-12 19:48:52,872 - scraper_worker - INFO - Worker 1: Found 20 products initially
+2025-10-12 19:48:57,212 - scraper_worker - INFO - Worker 2: Handling infinite scroll...
+2025-10-12 19:48:57,873 - scraper_worker - INFO - Worker 1: Handling infinite scroll...
+2025-10-12 19:48:58,249 - scraper_worker - INFO - Worker 2: Total unique products found: 20
+2025-10-12 19:48:58,249 - scraper_worker - INFO - Worker 2: Scraping product details...
+2025-10-12 19:48:58,880 - scraper_worker - INFO - Worker 1: Total unique products found: 20
+2025-10-12 19:48:58,880 - scraper_worker - INFO - Worker 1: Scraping product details...
+2025-10-12 19:49:25,813 - scraper_worker - INFO - Worker 2: Progress: 10/20
+2025-10-12 19:49:27,220 - scraper_worker - INFO - Worker 1: Progress: 10/20
+2025-10-12 19:49:57,954 - scraper_worker - INFO - Worker 1: Progress: 20/20
+2025-10-12 19:50:00,943 - scraper_worker - INFO - Worker 2: Progress: 20/20
+2025-10-12 19:50:00,990 - scraper_worker - INFO - Worker 1: Completed 'women' - 20 products in 71.58s
+2025-10-12 19:50:00,990 - __main__ - INFO - Worker 1: Validating 'women'...
+2025-10-12 19:50:00,990 - data_validator - INFO - Validating category 'women' with 20 products...
+2025-10-12 19:50:00,990 - data_validator - INFO - Validation complete for 'women':
+2025-10-12 19:50:00,990 - data_validator - INFO -   Passed: 0/20
+2025-10-12 19:50:00,990 - data_validator - INFO -   Pass rate: 0.00%
+2025-10-12 19:50:00,990 - data_validator - INFO -   Duplicates: 0
+2025-10-12 19:50:00,990 - data_validator - WARNING - Category 'women' does not meet quality threshold: 0.00% < 99.00%
+2025-10-12 19:50:00,990 - __main__ - WARNING - Worker 1: Category 'women' does not meet quality threshold. Saving anyway with warning.
+2025-10-12 19:50:00,990 - __main__ - INFO - Worker 1: Saving 'women'...
+2025-10-12 19:50:00,990 - storage_manager - INFO - Saving category 'women' to women.json...
+2025-10-12 19:50:00,991 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/women.json
+2025-10-12 19:50:00,991 - __main__ - INFO - Worker 1: Successfully completed 'women'
+2025-10-12 19:50:04,735 - scraper_worker - INFO - Worker 2: Completed 'men' - 20 products in 75.31s
+2025-10-12 19:50:04,735 - __main__ - INFO - Worker 2: Validating 'men'...
+2025-10-12 19:50:04,735 - data_validator - INFO - Validating category 'men' with 20 products...
+2025-10-12 19:50:04,736 - data_validator - INFO - Validation complete for 'men':
+2025-10-12 19:50:04,736 - data_validator - INFO -   Passed: 0/20
+2025-10-12 19:50:04,736 - data_validator - INFO -   Pass rate: 0.00%
+2025-10-12 19:50:04,736 - data_validator - INFO -   Duplicates: 0
+2025-10-12 19:50:04,736 - data_validator - WARNING - Category 'men' does not meet quality threshold: 0.00% < 99.00%
+2025-10-12 19:50:04,736 - __main__ - WARNING - Worker 2: Category 'men' does not meet quality threshold. Saving anyway with warning.
+2025-10-12 19:50:04,736 - __main__ - INFO - Worker 2: Saving 'men'...
+2025-10-12 19:50:04,736 - storage_manager - INFO - Saving category 'men' to men.json...
+2025-10-12 19:50:04,736 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/men.json
+2025-10-12 19:50:04,736 - __main__ - INFO - Worker 2: Successfully completed 'men'
+2025-10-12 19:50:04,736 - __main__ - INFO - 
+============================================================
+2025-10-12 19:50:04,736 - __main__ - INFO - Generating master output file...
+2025-10-12 19:50:04,736 - storage_manager - INFO - Saving master file with 2 categories...
+2025-10-12 19:50:04,737 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/all_categories.json
+2025-10-12 19:50:04,737 - logger - INFO - Ended scraping session: e2bfc6b6-d32b-4b07-8778-47c6c129d9fd
+2025-10-12 19:50:04,737 - logger - INFO - Saved session log: /Users/naruechon/Documents/Project/OOTDay/log/scraping_session_20251012_125004.json
+2025-10-12 19:50:04,737 - __main__ - INFO - 
+Session log saved: /Users/naruechon/Documents/Project/OOTDay/log/scraping_session_20251012_125004.json
+2025-10-12 19:50:04,737 - __main__ - INFO - 
+============================================================
+2025-10-12 19:50:04,737 - __main__ - INFO - SCRAPING COMPLETE
+2025-10-12 19:50:04,737 - __main__ - INFO - ============================================================

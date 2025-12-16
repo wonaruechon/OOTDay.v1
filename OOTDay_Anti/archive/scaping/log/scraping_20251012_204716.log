@@ -1,0 +1,74 @@
+2025-10-12 20:47:16,562 - __main__ - INFO - ============================================================
+2025-10-12 20:47:16,562 - __main__ - INFO - CENTRAL GROUP PRODUCT SCRAPING SYSTEM
+2025-10-12 20:47:16,562 - __main__ - INFO - ============================================================
+2025-10-12 20:47:16,562 - __main__ - INFO - Workers: 2
+2025-10-12 20:47:16,562 - __main__ - INFO - Categories: 2
+2025-10-12 20:47:16,562 - __main__ - INFO - Scrape Details: True
+2025-10-12 20:47:16,562 - __main__ - INFO - Validate Images: False
+2025-10-12 20:47:16,562 - __main__ - INFO - Resume: True
+2025-10-12 20:47:16,562 - __main__ - INFO - ============================================================
+2025-10-12 20:47:16,562 - logger - INFO - Started scraping session: 54925200-aab4-45f5-9f39-05269ed24520
+2025-10-12 20:47:16,562 - __main__ - INFO - Attempt 1/3 for category 'women'
+2025-10-12 20:47:16,562 - scraper_worker_hybrid - INFO - Worker 1: Starting category 'women' (Hybrid Mode)
+2025-10-12 20:47:16,562 - scraper_worker_hybrid - INFO - Worker 1: URL: https://www.central.co.th/th/women/clothing
+2025-10-12 20:47:16,584 - __main__ - INFO - Attempt 1/3 for category 'men'
+2025-10-12 20:47:16,585 - scraper_worker_hybrid - INFO - Worker 2: Starting category 'men' (Hybrid Mode)
+2025-10-12 20:47:16,585 - scraper_worker_hybrid - INFO - Worker 2: URL: https://www.central.co.th/th/men/clothing
+2025-10-12 20:47:17,659 - scraper_worker_hybrid - INFO - Worker 2: Fetching category page with Crawl4AI...
+2025-10-12 20:47:17,661 - scraper_worker_hybrid - INFO - Worker 1: Fetching category page with Crawl4AI...
+2025-10-12 20:47:19,403 - scraper_worker_hybrid - INFO - Worker 1: Found 17 products initially
+2025-10-12 20:47:20,532 - scraper_worker_hybrid - INFO - Worker 2: Found 20 products initially
+2025-10-12 20:47:29,404 - scraper_worker_hybrid - INFO - Worker 1: Handling infinite scroll...
+2025-10-12 20:47:30,230 - scraper_worker_hybrid - INFO - Worker 1: Total unique products found: 17
+2025-10-12 20:47:30,363 - scraper_worker_hybrid - INFO - Worker 1: Scraping product details with Playwright...
+2025-10-12 20:47:30,533 - scraper_worker_hybrid - INFO - Worker 2: Handling infinite scroll...
+2025-10-12 20:47:31,854 - scraper_worker_hybrid - INFO - Worker 2: Total unique products found: 20
+2025-10-12 20:47:31,974 - scraper_worker_hybrid - INFO - Worker 2: Scraping product details with Playwright...
+2025-10-12 20:47:32,182 - scraper_worker_hybrid - INFO - Worker 1: Playwright browser initialized
+2025-10-12 20:47:34,821 - scraper_worker_hybrid - INFO - Worker 2: Playwright browser initialized
+2025-10-12 20:47:55,962 - scraper_worker_hybrid - INFO - Worker 2: Progress: 5/20
+2025-10-12 20:48:10,062 - scraper_worker_hybrid - INFO - Worker 1: Progress: 5/17
+2025-10-12 20:48:31,795 - scraper_worker_hybrid - INFO - Worker 2: Progress: 10/20
+2025-10-12 20:48:54,528 - scraper_worker_hybrid - INFO - Worker 1: Progress: 10/17
+2025-10-12 20:49:07,721 - scraper_worker_hybrid - INFO - Worker 2: Progress: 15/20
+2025-10-12 20:49:25,464 - scraper_worker_hybrid - INFO - Worker 1: Progress: 15/17
+2025-10-12 20:49:45,124 - scraper_worker_hybrid - INFO - Worker 2: Progress: 20/20
+2025-10-12 20:49:46,597 - scraper_worker_hybrid - INFO - Worker 1: Playwright browser closed
+2025-10-12 20:49:46,601 - scraper_worker_hybrid - INFO - Worker 1: Completed 'women' - 17 products in 150.04s
+2025-10-12 20:49:46,601 - __main__ - INFO - Worker 1: Validating 'women'...
+2025-10-12 20:49:46,602 - data_validator - INFO - Validating category 'women' with 17 products...
+2025-10-12 20:49:46,602 - data_validator - INFO - Validation complete for 'women':
+2025-10-12 20:49:46,602 - data_validator - INFO -   Passed: 16/17
+2025-10-12 20:49:46,602 - data_validator - INFO -   Pass rate: 94.12%
+2025-10-12 20:49:46,602 - data_validator - INFO -   Duplicates: 0
+2025-10-12 20:49:46,602 - data_validator - WARNING - Category 'women' does not meet quality threshold: 94.12% < 99.00%
+2025-10-12 20:49:46,602 - __main__ - WARNING - Worker 1: Category 'women' does not meet quality threshold. Saving anyway with warning.
+2025-10-12 20:49:46,602 - __main__ - INFO - Worker 1: Saving 'women'...
+2025-10-12 20:49:46,602 - storage_manager - INFO - Saving category 'women' to women.json...
+2025-10-12 20:49:46,603 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/women.json
+2025-10-12 20:49:46,603 - __main__ - INFO - Worker 1: Successfully completed 'women'
+2025-10-12 20:49:52,481 - scraper_worker_hybrid - INFO - Worker 2: Playwright browser closed
+2025-10-12 20:49:52,486 - scraper_worker_hybrid - INFO - Worker 2: Completed 'men' - 20 products in 155.90s
+2025-10-12 20:49:52,486 - __main__ - INFO - Worker 2: Validating 'men'...
+2025-10-12 20:49:52,486 - data_validator - INFO - Validating category 'men' with 20 products...
+2025-10-12 20:49:52,486 - data_validator - INFO - Validation complete for 'men':
+2025-10-12 20:49:52,486 - data_validator - INFO -   Passed: 20/20
+2025-10-12 20:49:52,486 - data_validator - INFO -   Pass rate: 100.00%
+2025-10-12 20:49:52,486 - data_validator - INFO -   Duplicates: 0
+2025-10-12 20:49:52,486 - __main__ - INFO - Worker 2: Saving 'men'...
+2025-10-12 20:49:52,486 - storage_manager - INFO - Saving category 'men' to men.json...
+2025-10-12 20:49:52,487 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/men.json
+2025-10-12 20:49:52,487 - __main__ - INFO - Worker 2: Successfully completed 'men'
+2025-10-12 20:49:52,487 - __main__ - INFO - 
+============================================================
+2025-10-12 20:49:52,488 - __main__ - INFO - Generating master output file...
+2025-10-12 20:49:52,488 - storage_manager - INFO - Saving master file with 2 categories...
+2025-10-12 20:49:52,489 - storage_manager - INFO - Successfully saved: /Users/naruechon/Documents/Project/OOTDay/products/all_categories.json
+2025-10-12 20:49:52,489 - logger - INFO - Ended scraping session: 54925200-aab4-45f5-9f39-05269ed24520
+2025-10-12 20:49:52,489 - logger - INFO - Saved session log: /Users/naruechon/Documents/Project/OOTDay/log/scraping_session_20251012_134952.json
+2025-10-12 20:49:52,490 - __main__ - INFO - 
+Session log saved: /Users/naruechon/Documents/Project/OOTDay/log/scraping_session_20251012_134952.json
+2025-10-12 20:49:52,490 - __main__ - INFO - 
+============================================================
+2025-10-12 20:49:52,490 - __main__ - INFO - SCRAPING COMPLETE
+2025-10-12 20:49:52,490 - __main__ - INFO - ============================================================

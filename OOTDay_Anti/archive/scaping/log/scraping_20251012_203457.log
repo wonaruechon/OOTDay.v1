@@ -1,0 +1,32 @@
+2025-10-12 20:34:57,956 - __main__ - INFO - ============================================================
+2025-10-12 20:34:57,956 - __main__ - INFO - CENTRAL GROUP PRODUCT SCRAPING SYSTEM
+2025-10-12 20:34:57,956 - __main__ - INFO - ============================================================
+2025-10-12 20:34:57,956 - __main__ - INFO - Workers: 1
+2025-10-12 20:34:57,956 - __main__ - INFO - Categories: 2
+2025-10-12 20:34:57,956 - __main__ - INFO - Scrape Details: True
+2025-10-12 20:34:57,956 - __main__ - INFO - Validate Images: False
+2025-10-12 20:34:57,956 - __main__ - INFO - Resume: True
+2025-10-12 20:34:57,956 - __main__ - INFO - ============================================================
+2025-10-12 20:34:57,956 - logger - INFO - Started scraping session: c17f4898-d0f8-44c5-a554-30029bfbb66a
+2025-10-12 20:34:57,956 - __main__ - INFO - Attempt 1/3 for category 'women'
+2025-10-12 20:34:57,956 - scraper_worker_hybrid - INFO - Worker 1: Starting category 'women' (Hybrid Mode)
+2025-10-12 20:34:57,956 - scraper_worker_hybrid - INFO - Worker 1: URL: https://www.central.co.th/th/women/clothing
+2025-10-12 20:34:58,744 - scraper_worker_hybrid - INFO - Worker 1: Fetching category page with Crawl4AI...
+2025-10-12 20:35:00,196 - scraper_worker_hybrid - INFO - Worker 1: Found 17 products initially
+2025-10-12 20:35:10,198 - scraper_worker_hybrid - INFO - Worker 1: Handling infinite scroll...
+2025-10-12 20:35:11,789 - scraper_worker_hybrid - INFO - Worker 1: Total unique products found: 17
+2025-10-12 20:35:11,899 - scraper_worker_hybrid - INFO - Worker 1: Scraping product details with Playwright...
+2025-10-12 20:35:13,535 - scraper_worker_hybrid - INFO - Worker 1: Playwright browser initialized
+2025-10-12 20:36:11,170 - scraper_worker_hybrid - ERROR - Worker 1: Error scraping product https://www.central.co.th/th/l-12-d-slim-fit-jersey-polo-shirt-pink-grmkppr000140847: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.central.co.th/th/l-12-d-slim-fit-jersey-polo-shirt-pink-grmkppr000140847", waiting until "networkidle"
+
+2025-10-12 20:36:58,239 - scraper_worker_hybrid - ERROR - Worker 1: Error scraping product https://www.central.co.th/th/maje-women-trench-coat-contrast-sleeve-and-collar-grcds11525090118: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.central.co.th/th/maje-women-trench-coat-contrast-sleeve-and-collar-grcds11525090118", waiting until "networkidle"
+
+2025-10-12 20:36:58,241 - scraper_worker_hybrid - INFO - Worker 1: Progress: 5/17
+2025-10-12 20:37:45,150 - scraper_worker_hybrid - ERROR - Worker 1: Error scraping product https://www.central.co.th/th/steel-blue-women-straight-jeans-model-lj1n003-grmkppr000176058: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.central.co.th/th/steel-blue-women-straight-jeans-model-lj1n003-grmkppr000176058", waiting until "networkidle"
+

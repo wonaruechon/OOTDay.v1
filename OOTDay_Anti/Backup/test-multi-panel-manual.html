@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Panel Test Mode - Manual Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-7xl mx-auto p-6">
+        <!-- Multi-Panel Test Mode UI Mock -->
+        <div class="space-y-4 p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl border-2 border-orange-400 shadow-lg">
+
+            <!-- Header -->
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="px-4 py-2 bg-orange-600 text-white font-bold rounded-lg text-sm shadow-md">
+                        INTERACTIVE TEST MODE
+                    </span>
+                    <span class="text-sm font-medium text-gray-700">
+                        Multi-Panel Model Comparison
+                    </span>
+                </div>
+                <button class="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 font-medium shadow-md">
+                    Exit Test Mode
+                </button>
+            </div>
+
+            <!-- Scenario Selection -->
+            <div class="bg-white p-4 rounded-lg shadow-md border border-gray-200">
+                <label class="block text-sm font-semibold mb-2 text-gray-700">
+                    Select Test Scenario
+                </label>
+                <select class="w-full p-3 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-orange-500">
+                    <option value="">-- Select Scenario (27 total) --</option>
+
+                    <!-- Work (3 scenarios) -->
+                    <optgroup label="🏢 Work (ไปทำงาน)">
+                        <option value="work-1">หาชุดไปออฟฟิศหน่อยค่ะ แบบสมาร์ทแคชชวลที่ดูดีแต่สบายๆ</option>
+                        <option value="work-2">ต้องไปประชุมใหญ่ค่ะ อยากได้ลุคที่ดูมั่นใจและโปรเฟสชั่นนัล งบประมาณประมาณ 8,000 บาท</option>
+                        <option value="work-3">ออฟฟิศเราเป็นแนวครีเอทีฟค่ะ อยากได้ชุดที่ดูมีสไตล์แต่ยังโปรเฟสชั่นนัล</option>
+                    </optgroup>
+
+                    <!-- Chill Day (3 scenarios) -->
+                    <optgroup label="😎 Chill Day (วันชิลๆ)">
+                        <option value="chill-1">วันนี้อยากชิลๆ ค่ะ หาชุดเที่ยวสบายๆ แต่ดูดีหน่อย</option>
+                        <option value="chill-2">สุดสัปดาห์จะไปช้อปปิ้งกับเพื่อนค่ะ อยากได้ลุคสบายแต่เท่</option>
+                        <option value="chill-3">จะไปเดินเล่นสวนสาธารณะค่ะ อยากได้ชุดที่สบายและเคลื่อนไหวง่าย</option>
+                    </optgroup>
+
+                    <!-- Wedding (3 scenarios) -->
+                    <optgroup label="💒 Wedding (งานแต่ง)">
+                        <option value="wedding-1">จะไปงานแต่งเพื่อนค่ะ งานเป็นแบบ semi-formal อยากได้ชุดที่ดูดีแต่ไม่เกินเจ้าบ่าวเจ้าสาว</option>
+                        <option value="wedding-2">ไปงานแต่งกลางวันที่โรงแรมหรูค่ะ อยากได้ชุดที่เป็นทางการแต่ไม่แมทช์มากเกินไป</option>
+                        <option value="wedding-3">งานแต่งตอนเย็นที่ริมทะเล อยากได้ชุดที่โรแมนติกและเหมาะกับบรรยากาศชายทะเล</option>
+                    </optgroup>
+
+                    <!-- Sport (3 scenarios) -->
+                    <optgroup label="⚽ Sport (เล่นกีฬา)">
+                        <option value="sport-1">จะไปออกกำลังกายที่ฟิตเนสค่ะ อยากได้ชุดที่ใส่สบายและดูดี</option>
+                        <option value="sport-2">วันนี้จะไปวิ่งเช้าที่สวนค่ะ อยากได้ชุดกีฬาที่ระบายอากาศดี</option>
+                        <option value="sport-3">จะไปเล่นโยคะค่ะ หาชุดที่ยืดหยุ่นและเคลื่อนไหวสะดวก</option>
+                    </optgroup>
+
+                    <!-- Travel (3 scenarios) -->
+                    <optgroup label="✈️ Travel (เดินทาง)">
+                        <option value="travel-1">สัปดาห์หน้าจะไปเที่ยวญี่ปุ่นตอนหน้าหนาวค่ะ อยากได้ชุดที่อุ่นแต่ดูดี</option>
+                        <option value="travel-2">จะไปเที่ยวเชียงใหม่ค่ะ อยากได้ชุดสบายๆ ที่เหมาะกับอากาศเย็น</option>
+                        <option value="travel-3">จะไปทะเลภูเก็ตค่ะ หาชุดที่เหมาะกับอากาศร้อนและไปเที่ยวทะเลได้</option>
+                    </optgroup>
+
+                    <!-- Date (3 scenarios) -->
+                    <optgroup label="💕 Date (เดท)">
+                        <option value="date-1">จะไปเดทมื้อค่ำที่ร้านอาหารดีๆ ค่ะ อยากได้ลุคที่ดูดีและดึงดูดสายตา</option>
+                        <option value="date-2">เดทแรกจะไปดูหนังกับกินข้าวค่ะ อยากได้ชุดที่ดูน่ารักแต่ไม่เคร่ง</option>
+                        <option value="date-3">วันนี้เดทกลางวันที่สวนค่ะ หาชุดที่สบายแต่ดูมีเสน่ห์</option>
+                    </optgroup>
+
+                    <!-- Dinner (3 scenarios) -->
+                    <optgroup label="🍽️ Dinner (ดินเนอร์)">
+                        <option value="dinner-1">คืนนี้จะไปดินเนอร์ที่ร้านอาหารฝรั่งเศสค่ะ อยากได้ชุดที่หรูหราเหมาะกับบรรยากาศ</option>
+                        <option value="dinner-2">จะไปงานเลี้ยงดินเนอร์ที่บริษัทค่ะ ดูมืออาชีพแต่สวยงาม</option>
+                        <option value="dinner-3">ดินเนอร์กับครอบครัวที่ร้านอาหารดีๆ ค่ะ อยากได้ชุดที่ดูดีแต่สบายๆ</option>
+                    </optgroup>
+
+                    <!-- Café (3 scenarios) -->
+                    <optgroup label="☕ Café (ไปคาเฟ่)">
+                        <option value="cafe-1">จะไปนั่งคาเฟ่ทำงานค่ะ หาชุดที่ดูดีแต่สบาย</option>
+                        <option value="cafe-2">ช่วงบ่ายจะไปคาเฟ่กับเพื่อนค่ะ อยากได้ลุคที่ชิคและเหมาะกับ Instagram</option>
+                        <option value="cafe-3">จะไปคาเฟ่หนังสือค่ะ หาชุดที่สบายและเหมาะกับบรรยากาศสงบๆ</option>
+                    </optgroup>
+
+                    <!-- Party (3 scenarios) -->
+                    <optgroup label="🎉 Party (งานปาร์ตี้)">
+                        <option value="party-1">คืนนี้จะไปงานปาร์ตี้วันเกิดเพื่อนค่ะ อยากได้ชุดที่ดูสนุกสนานและโดดเด่น</option>
+                        <option value="party-2">จะไปงานเลี้ยงปีใหม่ที่โรงแรมค่ะ อยากได้ชุดที่ดูหรูหราและเฉิดฉาย</option>
+                        <option value="party-3">งานคอนเสิร์ตค่ะ อยากได้ชุดที่เท่และสบาย</option>
+                    </optgroup>
+
+                    <!-- Custom -->
+                    <option value="custom">✏️ Custom Query (Enter your own)</option>
+                </select>
+            </div>
+
+            <!-- Panel Controls -->
+            <div class="flex items-center justify-between bg-white p-4 rounded-lg shadow-md border border-gray-200">
+                <div class="flex items-center gap-3">
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium shadow-sm">
+                        + Add Panel (2/4)
+                    </button>
+                    <button class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium shadow-sm">
+                        Run All Tests
+                    </button>
+                </div>
+                <button class="px-4 py-2 border-2 border-green-600 text-green-700 rounded-lg hover:bg-green-50 font-medium shadow-sm">
+                    Export All
+                </button>
+            </div>
+
+            <!-- Shared Budget Tracker -->
+            <div class="bg-white p-4 rounded-lg shadow-md border border-gray-200">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-semibold text-gray-800">Shared Budget</span>
+                    <div class="text-right">
+                        <span class="text-xl font-bold text-gray-800">$0.000000</span>
+                        <span class="text-gray-500"> / $5.00</span>
+                        <p class="text-xs text-gray-600 mt-1">$5.000000 remaining</p>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                    <div class="h-full bg-green-500 transition-all duration-300" style="width: 0%"></div>
+                </div>
+                <button class="mt-3 px-4 py-1 text-sm border border-gray-400 text-gray-700 rounded hover:bg-gray-100">
+                    Reset Budget
+                </button>
+            </div>
+
+            <!-- Test Panels Grid -->
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Panel 1 (Blue) -->
+                <div class="bg-white p-4 rounded-lg shadow-lg border-2 border-blue-500">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center gap-2">
+                            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+                            <span class="font-semibold text-gray-700">Panel 1</span>
+                        </div>
+                    </div>
+
+                    <select class="w-full p-2 border border-gray-300 rounded-lg mb-3 text-sm">
+                        <option value="">Select Model</option>
+                        <option value="claude">Claude Sonnet 4.5 (Anthropic)</option>
+                        <option value="gemini">Gemini 2.0 Flash (Google)</option>
+                        <option value="deepseek">DeepSeek Chat (DeepSeek)</option>
+                    </select>
+
+                    <div class="text-center py-8 text-sm text-gray-500">
+                        Select a model to begin
+                    </div>
+                </div>
+
+                <!-- Panel 2 (Green) -->
+                <div class="bg-white p-4 rounded-lg shadow-lg border-2 border-green-500">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center gap-2">
+                            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+                            <span class="font-semibold text-gray-700">Panel 2</span>
+                        </div>
+                    </div>
+
+                    <select class="w-full p-2 border border-gray-300 rounded-lg mb-3 text-sm">
+                        <option value="">Select Model</option>
+                        <option value="claude">Claude Sonnet 4.5 (Anthropic)</option>
+                        <option value="gemini">Gemini 2.0 Flash (Google)</option>
+                        <option value="deepseek">DeepSeek Chat (DeepSeek)</option>
+                    </select>
+
+                    <div class="text-center py-8 text-sm text-gray-500">
+                        Select a model to begin
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info Box -->
+            <div class="bg-blue-50 border border-blue-300 rounded-lg p-4 text-sm">
+                <p class="font-semibold text-blue-900 mb-2">✓ Component Successfully Created</p>
+                <p class="text-blue-800">The Multi-Panel Test Mode interface has been implemented with:</p>
+                <ul class="mt-2 space-y-1 text-blue-700">
+                    <li>• <strong>27 test scenarios</strong> across 9 occasions (Work, Chill, Wedding, Sport, Travel, Date, Dinner, Café, Party)</li>
+                    <li>• <strong>3 LLM models</strong> configured (Claude Sonnet 4.5, Gemini 2.0 Flash, DeepSeek Chat)</li>
+                    <li>• Up to <strong>4 simultaneous test panels</strong></li>
+                    <li>• <strong>Shared $5 budget tracking</strong></li>
+                    <li>• <strong>Parallel test execution</strong></li>
+                    <li>• <strong>RAG and Guardrails integration</strong></li>
+                    <li>• <strong>Export to Markdown and CSV</strong></li>
+                </ul>
+                <p class="mt-3 text-blue-800">
+                    <strong>To use in your Next.js app:</strong> Import the component at
+                    <code class="bg-blue-100 px-2 py-1 rounded">@/components/chat/MultiPanelTestMode</code>
+                </p>
+            </div>
+        </div>
+
+        <!-- Component Info -->
+        <div class="mt-6 bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Implementation Complete ✅</h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Files Created</h3>
+                    <ul class="space-y-1 text-sm text-gray-700">
+                        <li>✓ <code>components/chat/MultiPanelTestMode.tsx</code></li>
+                        <li>✓ <code>config/models.json</code> (3 models)</li>
+                        <li>✓ <code>app/test-multi-panel/page.tsx</code></li>
+                        <li>✓ Integration guides and documentation</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Features</h3>
+                    <ul class="space-y-1 text-sm text-gray-700">
+                        <li>✓ Multi-panel model comparison</li>
+                        <li>✓ Shared budget tracking ($5.00)</li>
+                        <li>✓ Parallel test execution</li>
+                        <li>✓ RAG knowledge retrieval</li>
+                        <li>✓ Guardrails validation</li>
+                        <li>✓ Auto evaluation (8 criteria)</li>
+                        <li>✓ Export to MD and CSV</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <h4 class="font-semibold text-gray-800 mb-2">Quick Start</h4>
+                <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto text-xs"><code>import { MultiPanelTestMode } from '@/components/chat/MultiPanelTestMode';
+import { exportResultsBoth } from '@/lib/test-result-exporter';
+
+export default function Page() {
+  return (
+    &lt;MultiPanelTestMode
+      onExportAll={exportResultsBoth}
+      maxPanels={4}
+    /&gt;
+  );
+}</code></pre>
+            </div>
+
+            <div class="mt-4 flex gap-4">
+                <a href="file:///Users/naruechon/Documents/Project/OOTDay/QUICK_START_MULTI_PANEL.md"
+                   class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                    View Quick Start Guide
+                </a>
+                <a href="file:///Users/naruechon/Documents/Project/OOTDay/MULTI_PANEL_TEST_MODE_INTEGRATION.md"
+                   class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
+                    View Full Documentation
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

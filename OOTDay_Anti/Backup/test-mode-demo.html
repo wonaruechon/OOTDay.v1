@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOTDay - Multi-Panel Test Mode Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #1a202c;
+        }
+
+        .badge {
+            background: #f97316;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .instruction-panel {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .instruction-panel h2 {
+            color: #1a202c;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .model-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .model-list h3 {
+            color: #1a202c;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .model-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .model-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+            font-size: 14px;
+        }
+
+        .model-item strong {
+            color: #1a202c;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .model-item span {
+            color: #718096;
+            font-size: 12px;
+        }
+
+        .cta-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .setup-steps {
+            list-style: none;
+            counter-reset: step-counter;
+            margin: 20px 0;
+        }
+
+        .setup-steps li {
+            counter-increment: step-counter;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f7fafc;
+            border-radius: 6px;
+            position: relative;
+            padding-left: 50px;
+        }
+
+        .setup-steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        code {
+            background: #1a202c;
+            color: #68d391;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎨 OOTDay Fashion Assistant - Multi-Panel Test Mode</h1>
+            <span class="badge">INTERACTIVE TEST MODE</span>
+        </div>
+
+        <div class="instruction-panel">
+            <h2>✨ Multi-Panel Model Comparison System</h2>
+            <p style="margin-bottom: 20px; color: #4a5568;">
+                Test and compare up to 4 LLM models simultaneously with integrated RAG capabilities and guardrails
+                for accurate product recommendations. All tests share a common budget tracker.
+            </p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🤖 11 LLM Models</h3>
+                    <p>Test with Gemini, GPT-4/5, Claude, DeepSeek, Qwen, GLM-4.6, and more</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📊 Side-by-Side Comparison</h3>
+                    <p>Run up to 4 models in parallel and compare responses instantly</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💰 Shared Budget Tracking</h3>
+                    <p>$5 budget shared across all panels with real-time cost monitoring</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎯 RAG & Guardrails</h3>
+                    <p>Integrated knowledge base retrieval and quality validation</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📤 Export Results</h3>
+                    <p>Export all panel results to Markdown and CSV formats</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Real-time Evaluation</h3>
+                    <p>Automatic scoring on 8 quality criteria per response</p>
+                </div>
+            </div>
+
+            <div class="model-list">
+                <h3>📋 Available Models</h3>
+                <div class="model-grid">
+                    <div class="model-item">
+                        <strong>Gemini 2.0 Flash</strong>
+                        <span>Google • Free</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>GPT-4 Turbo</strong>
+                        <span>OpenAI • Premium</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>GLM-4.6</strong>
+                        <span>Zhipu AI • Mid-range</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>Claude 3.5 Sonnet</strong>
+                        <span>Anthropic • Premium</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>Claude Sonnet 4.5</strong>
+                        <span>Anthropic • Premium</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>Qwen 2.5 72B</strong>
+                        <span>Alibaba • Budget</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>DeepSeek Chat</strong>
+                        <span>DeepSeek • Budget</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>GPT-OSS-20B</strong>
+                        <span>OpenChat • Budget</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>GPT-4.1 Mini</strong>
+                        <span>OpenAI • Mid-range</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>GPT-5</strong>
+                        <span>OpenAI • Premium</span>
+                    </div>
+                    <div class="model-item">
+                        <strong>Grok Code Fast 1</strong>
+                        <span>xAI • Premium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instruction-panel">
+            <h2>🚀 Quick Start Guide</h2>
+            <ul class="setup-steps">
+                <li>
+                    <strong>Set up your API key</strong><br>
+                    Add <code>OPENROUTER_API_KEY=your-key</code> to <code>.env.local</code> file
+                </li>
+                <li>
+                    <strong>Start the development server</strong><br>
+                    Run <code>pnpm dev</code> in the <code>v0-ootd-ay-ai-fashion-assistant</code> directory
+                </li>
+                <li>
+                    <strong>Import the component</strong><br>
+                    Use <code>MultiPanelTestMode</code> component in your chat interface
+                </li>
+                <li>
+                    <strong>Select models and scenario</strong><br>
+                    Choose up to 4 different models and a test scenario
+                </li>
+                <li>
+                    <strong>Run tests and compare</strong><br>
+                    Click "Run All Tests" to execute in parallel and view results
+                </li>
+                <li>
+                    <strong>Export results</strong><br>
+                    Click "Export All" to download results in Markdown and CSV formats
+                </li>
+            </ul>
+        </div>
+
+        <div class="instruction-panel">
+            <h2>🔧 Component Integration</h2>
+            <p style="margin-bottom: 15px; color: #4a5568;">
+                To integrate the Multi-Panel Test Mode into your application:
+            </p>
+            <pre style="background: #1a202c; color: #68d391; padding: 20px; border-radius: 8px; overflow-x: auto;"><code>import { MultiPanelTestMode } from '@/components/chat/MultiPanelTestMode';
+import { exportResultsBoth } from '@/lib/test-result-exporter';
+
+function YourPage() {
+  const handleExport = (results) => {
+    exportResultsBoth(results);
+  };
+
+  return (
+    &lt;MultiPanelTestMode
+      onExportAll={handleExport}
+      maxPanels={4}
+    /&gt;
+  );
+}</code></pre>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="margin-bottom: 20px; color: #1a202c;">Ready to Test?</h2>
+            <p style="margin-bottom: 30px; color: #4a5568;">
+                The Multi-Panel Test Mode is fully integrated with RAG and Guardrails system.<br>
+                Start comparing models and optimizing your fashion recommendations!
+            </p>
+            <a href="#" class="cta-button" onclick="alert('Import MultiPanelTestMode component into your Next.js app!'); return false;">
+                Get Started
+            </a>
+        </div>
+    </div>
+</body>
+</html>

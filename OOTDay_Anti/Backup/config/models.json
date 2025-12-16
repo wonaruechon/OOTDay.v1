@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "provider": "Anthropic",
+      "inputPricePerMillion": 3000,
+      "outputPricePerMillion": 15000,
+      "contextWindow": 200000,
+      "maxOutputTokens": 8192
+    },
+    {
+      "id": "google/gemini-2.0-flash-exp:free",
+      "name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "inputPricePerMillion": 0,
+      "outputPricePerMillion": 0,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 8192
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek Chat",
+      "provider": "DeepSeek",
+      "inputPricePerMillion": 140,
+      "outputPricePerMillion": 280,
+      "contextWindow": 64000,
+      "maxOutputTokens": 4096
+    }
+  ]
+}

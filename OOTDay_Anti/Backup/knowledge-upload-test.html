@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Upload Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">
+                Knowledge Upload System Test
+            </h1>
+            <p class="text-gray-600 mb-6">
+                Manual test interface for the RAG knowledge upload functionality
+            </p>
+
+            <!-- Test Status -->
+            <div id="status" class="mb-6 p-4 rounded-lg border hidden">
+                <div class="flex items-center gap-2">
+                    <div id="statusIcon"></div>
+                    <div id="statusMessage" class="font-medium"></div>
+                </div>
+            </div>
+
+            <!-- Test Sections -->
+            <div class="space-y-8">
+                <!-- Test 1: API Availability -->
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        <span class="bg-blue-100 text-blue-800 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                        API Endpoint Availability
+                    </h2>
+                    <p class="text-gray-600 mb-4">Check if knowledge API routes are accessible</p>
+                    <button onclick="testAPIAvailability()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                        Test API Endpoints
+                    </button>
+                    <div id="apiResult" class="mt-4 text-sm"></div>
+                </div>
+
+                <!-- Test 2: File Upload -->
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        <span class="bg-green-100 text-green-800 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                        File Upload
+                    </h2>
+                    <p class="text-gray-600 mb-4">Upload a test knowledge document</p>
+
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Select Category</label>
+                        <select id="categorySelect" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                            <option value="fashion">Fashion</option>
+                            <option value="occasions">Occasions</option>
+                            <option value="brand">Brand</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Select File</label>
+                        <input type="file" id="fileInput" accept=".md,.txt" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                    </div>
+
+                    <button onclick="testUpload()" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
+                        Upload File
+                    </button>
+                    <div id="uploadResult" class="mt-4 text-sm"></div>
+                </div>
+
+                <!-- Test 3: List Files -->
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        <span class="bg-purple-100 text-purple-800 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                        List Knowledge Files
+                    </h2>
+                    <p class="text-gray-600 mb-4">View all uploaded knowledge documents</p>
+                    <button onclick="testListFiles()" class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">
+                        List Files
+                    </button>
+                    <div id="listResult" class="mt-4 text-sm"></div>
+                </div>
+
+                <!-- Test 4: Reload Knowledge Base -->
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        <span class="bg-orange-100 text-orange-800 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                        Reload Knowledge Base
+                    </h2>
+                    <p class="text-gray-600 mb-4">Trigger knowledge base re-indexing and view statistics</p>
+                    <button onclick="testReload()" class="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700">
+                        Reload & Get Stats
+                    </button>
+                    <div id="reloadResult" class="mt-4 text-sm"></div>
+                </div>
+
+                <!-- Test 5: Navigate to Full UI -->
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        <span class="bg-pink-100 text-pink-800 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">5</span>
+                        Full Knowledge Manager UI
+                    </h2>
+                    <p class="text-gray-600 mb-4">Test the complete React UI component</p>
+                    <a href="/knowledge-test" class="inline-block px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700">
+                        Open Knowledge Manager
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showStatus(message, isSuccess) {
+            const status = document.getElementById('status');
+            const statusIcon = document.getElementById('statusIcon');
+            const statusMessage = document.getElementById('statusMessage');
+
+            status.classList.remove('hidden', 'bg-green-50', 'border-green-500', 'bg-red-50', 'border-red-500');
+
+            if (isSuccess) {
+                status.classList.add('bg-green-50', 'border-green-500');
+                statusIcon.innerHTML = '✓';
+                statusIcon.className = 'text-green-600 text-xl font-bold';
+            } else {
+                status.classList.add('bg-red-50', 'border-red-500');
+                statusIcon.innerHTML = '✗';
+                statusIcon.className = 'text-red-600 text-xl font-bold';
+            }
+
+            statusMessage.textContent = message;
+            statusMessage.className = isSuccess ? 'font-medium text-green-800' : 'font-medium text-red-800';
+        }
+
+        async function testAPIAvailability() {
+            const resultDiv = document.getElementById('apiResult');
+            resultDiv.innerHTML = '<div class="text-blue-600">Testing endpoints...</div>';
+
+            const endpoints = [
+                { name: 'List', url: '/api/knowledge/list', method: 'GET' },
+                { name: 'Reload', url: '/api/knowledge/reload', method: 'POST' }
+            ];
+
+            let results = '<div class="space-y-2">';
+            let allSuccess = true;
+
+            for (const endpoint of endpoints) {
+                try {
+                    const response = await fetch(endpoint.url, { method: endpoint.method });
+                    const success = response.ok;
+                    allSuccess = allSuccess && success;
+
+                    results += `
+                        <div class="flex items-center gap-2 p-2 rounded ${success ? 'bg-green-50' : 'bg-red-50'}">
+                            <span class="${success ? 'text-green-600' : 'text-red-600'}">${success ? '✓' : '✗'}</span>
+                            <span class="font-mono text-xs">${endpoint.method}</span>
+                            <span class="flex-1">${endpoint.url}</span>
+                            <span class="${success ? 'text-green-600' : 'text-red-600'}">${response.status}</span>
+                        </div>
+                    `;
+                } catch (error) {
+                    allSuccess = false;
+                    results += `
+                        <div class="flex items-center gap-2 p-2 rounded bg-red-50">
+                            <span class="text-red-600">✗</span>
+                            <span class="flex-1">${endpoint.url}</span>
+                            <span class="text-red-600">Error</span>
+                        </div>
+                    `;
+                }
+            }
+
+            results += '</div>';
+            resultDiv.innerHTML = results;
+            showStatus(allSuccess ? 'All API endpoints available' : 'Some endpoints failed', allSuccess);
+        }
+
+        async function testUpload() {
+            const fileInput = document.getElementById('fileInput');
+            const categorySelect = document.getElementById('categorySelect');
+            const resultDiv = document.getElementById('uploadResult');
+
+            if (!fileInput.files.length) {
+                resultDiv.innerHTML = '<div class="text-red-600">Please select a file first</div>';
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('files', fileInput.files[0]);
+            formData.append('category', categorySelect.value);
+
+            resultDiv.innerHTML = '<div class="text-blue-600">Uploading...</div>';
+
+            try {
+                const response = await fetch('/api/knowledge/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    resultDiv.innerHTML = `
+                        <div class="bg-green-50 border border-green-500 rounded p-4">
+                            <div class="text-green-800 font-medium mb-2">✓ Upload Successful!</div>
+                            <div class="text-sm text-green-700">${result.message}</div>
+                            <div class="mt-2 text-xs text-green-600">
+                                Success: ${result.stats.success} | Failed: ${result.stats.failed}
+                            </div>
+                        </div>
+                    `;
+                    showStatus('File uploaded successfully', true);
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="bg-red-50 border border-red-500 rounded p-4">
+                            <div class="text-red-800 font-medium">✗ Upload Failed</div>
+                            <div class="text-sm text-red-700">${result.error || 'Unknown error'}</div>
+                        </div>
+                    `;
+                    showStatus('Upload failed', false);
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="text-red-600">Error: ${error.message}</div>`;
+                showStatus('Upload error', false);
+            }
+        }
+
+        async function testListFiles() {
+            const resultDiv = document.getElementById('listResult');
+            resultDiv.innerHTML = '<div class="text-blue-600">Loading files...</div>';
+
+            try {
+                const response = await fetch('/api/knowledge/list');
+                const result = await response.json();
+
+                if (result.success) {
+                    const fileCount = result.files.length;
+                    let html = `
+                        <div class="bg-purple-50 border border-purple-500 rounded p-4">
+                            <div class="text-purple-800 font-medium mb-4">Found ${fileCount} file(s)</div>
+                    `;
+
+                    if (fileCount > 0) {
+                        html += '<div class="space-y-2">';
+                        result.files.slice(0, 5).forEach(file => {
+                            html += `
+                                <div class="bg-white rounded p-3 text-sm">
+                                    <div class="font-medium text-gray-900">${file.filename}</div>
+                                    <div class="text-xs text-gray-500 mt-1">
+                                        Category: ${file.category} | Size: ${(file.size / 1024).toFixed(1)} KB
+                                    </div>
+                                </div>
+                            `;
+                        });
+                        html += '</div>';
+
+                        if (fileCount > 5) {
+                            html += `<div class="text-xs text-purple-600 mt-2">+ ${fileCount - 5} more files</div>`;
+                        }
+                    }
+
+                    html += '</div>';
+                    resultDiv.innerHTML = html;
+                    showStatus(`Listed ${fileCount} files successfully`, true);
+                } else {
+                    resultDiv.innerHTML = `<div class="text-red-600">Error: ${result.error}</div>`;
+                    showStatus('Failed to list files', false);
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="text-red-600">Error: ${error.message}</div>`;
+                showStatus('List error', false);
+            }
+        }
+
+        async function testReload() {
+            const resultDiv = document.getElementById('reloadResult');
+            resultDiv.innerHTML = '<div class="text-blue-600">Reloading knowledge base...</div>';
+
+            try {
+                const response = await fetch('/api/knowledge/reload', { method: 'POST' });
+                const result = await response.json();
+
+                if (result.success && result.stats) {
+                    resultDiv.innerHTML = `
+                        <div class="bg-orange-50 border border-orange-500 rounded p-4">
+                            <div class="text-orange-800 font-medium mb-4">✓ Knowledge Base Reloaded!</div>
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="bg-white rounded p-3 text-center">
+                                    <div class="text-2xl font-bold text-blue-600">${result.stats.totalDocuments}</div>
+                                    <div class="text-xs text-gray-600">Documents</div>
+                                </div>
+                                <div class="bg-white rounded p-3 text-center">
+                                    <div class="text-2xl font-bold text-purple-600">${result.stats.totalChunks}</div>
+                                    <div class="text-xs text-gray-600">Chunks</div>
+                                </div>
+                                <div class="bg-white rounded p-3 text-center">
+                                    <div class="text-2xl font-bold text-green-600">${result.stats.totalEmbeddings}</div>
+                                    <div class="text-xs text-gray-600">Embeddings</div>
+                                </div>
+                            </div>
+                            <div class="mt-3 text-xs text-orange-700">
+                                Last updated: ${new Date(result.stats.lastUpdated).toLocaleString()}
+                            </div>
+                        </div>
+                    `;
+                    showStatus('Knowledge base reloaded successfully', true);
+                } else {
+                    resultDiv.innerHTML = `<div class="text-red-600">Error: ${result.error || 'Unknown error'}</div>`;
+                    showStatus('Reload failed', false);
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="text-red-600">Error: ${error.message}</div>`;
+                showStatus('Reload error', false);
+            }
+        }
+
+        // Auto-test on load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                testAPIAvailability();
+            }, 500);
+        });
+    </script>
+</body>
+</html>
